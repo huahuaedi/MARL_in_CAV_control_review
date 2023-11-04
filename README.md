@@ -1,15 +1,9 @@
 <!-- omit in toc -->
-# Awesome Label-Efficient Learning in Agricutlture: A Comprehensive Review
+# Multi-Agent Reinforcement Learning for Connected and Automated Vehicles Control: Recent Advancements and Future Prospects
 
 
-[![Awesome](https://awesome.re/badge.svg)](https://github.com/DongChen06/Label-efficient-in-Agriculture
-) ![](https://img.shields.io/github/stars/DongChen06/Label-efficient-in-Agriculture?style=social)
+A curated list of awesome **Multi-Agent Reinforcement Learning in Connected and Automated Vehicles Control** papers 🔥🔥🔥. 
 
-![](https://img.shields.io/github/last-commit/DongChen06/Label-efficient-in-Agriculture?color=#00FA9A) ![](https://img.shields.io/badge/PaperNumber-70-blue) ![](https://img.shields.io/badge/PRs-Welcome-red) 
-
-A curated list of awesome **Label-efficient Learning in Agricutlture** papers 🔥🔥🔥. 
-
-Currently maintained by <ins>[Jiajia Li](xx) @ MSU</ins> and <ins>[Dong Chen](https://scholar.google.com/citations?user=dwvTqeUAAAAJ&hl=en) @ MSU</ins>. 
 
 
 **<font color='red'>Work still in progress</font>**  🚀, **we appreciate any suggestions and contributions** ❤️.
