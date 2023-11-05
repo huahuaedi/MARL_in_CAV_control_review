@@ -69,14 +69,14 @@ Please consider citing our paper. 👇👇👇
 -    [1.2. Contributions of this review](#12-contributions-of-this-review)
 - [2. 🗂️ Backgrounds](#2-️-backgrounds)
   - [2.1 Multi-agent system for CAV Control](#21-multi-agent-system-for-cav-control)
-  - [2.2 Preliminaries of Reinforcement Learning (RL)](#21-preliminaries-of-reinforcement-learning-(rl))
+  - [2.2 Preliminaries of Reinforcement Learning (RL)](#21-preliminaries-of-reinforcement-learning)
       - [2.2.1 Deep Q-Learning](#221-deep-q-learning)
       - [2.2.2 Policy Gradient](#222-policy-gradient)
       - [2.2.3 Actor-critic Network](#223-actor-critic-network)
-  - [2.3 Multi-Agent Reinforcement Learning (MARL)](#23-multi-agent-reinforcement-learning-(marl))
+  - [2.3 Multi-Agent Reinforcement Learning](#23-multi-agent-reinforcement-learning)
   - [2.4 Training and Execution Strategies in MARL](#24-training-and-execution-strategies-in-marl)
-      - [2.4.1 Centralized training with decentralized execution (CTDE)](#241-centralized-training-with-decentralized-execution-(ctde))
-      - [2.4.2 Decentralized training with decentralized execution (DTDE)](#242-decentralized-training-with-decentralized-execution-(dtde))
+      - [2.4.1 Centralized training with decentralized execution](#241-centralized-training-with-decentralized-execution)
+      - [2.4.2 Decentralized training with decentralized execution](#242-decentralized-training-with-decentralized-execution)
   - [2.5 MARL Algorithm Variants](#25-marl-algorithm-variants)
       - [2.5.1 Value function decomposition](#251-value-function-decomposition)
       - [2.5.2 Learning to Communicate](#252-learning-to-communicate)
@@ -85,9 +85,9 @@ Please consider citing our paper. 👇👇👇
   - [3.2 Two-dimensional Cooperation](#32-two-dimensional-cooperation)
   - [3.3 Three-dimensional Cooperation](#33-three-dimensional-cooperation)
       - [3.3.1 Traffic signal control](#321-traffic-signal-control)
-      - [3.3.2 On-ramps merging](#322-unsupervised-representation-learning)
+      - [3.3.2 On-ramps merging](#322-on-ramps-merging)
       - [3.3.3 Unsignalized intersections](#322-unsignalized-intersections)
-  - [3.4 Simulation platforms](#33-three-dimensional-cooperation)
+  - [3.4 Simulation platforms](#33-simulation-platforms)
 - [4. 📚 Corpora](#4--corpora)
 - [5. 📖 Extended Reading](#5--extended-reading)
   - [5.1 Instruction Induction](#51-instruction-induction)
@@ -104,18 +104,13 @@ Please consider citing our paper. 👇👇👇
 
 Why multi-agent reinforcement learning on the extent of control dimensions for connected and automated vehicles(CAVs)?
 
-- 👉 **Affordable.**  For supervised learning, each task usually requires extensive labeled examples 💰. While for instruction learning, each task may require only one instruction and just a few examples 🤩.
-- 👉 **One model, all tasks.** An ideal AI system should be able to quickly understand and handle various new tasks 💫.
-- 👉 **A promising research direction.** Traditional supervised learning uses labeled instances to represent the task semantics, i.e., training models by observing numerous examples to recover the original task meaning. Therefore, **why not directly use the task instruction**, **which has already occupied the essential task semantics**?
 
-<!-- We all know collecting extensive labeled examples are usually expensive 💰. -->
+- 👉 **Joint Policy Learning.**  Unlike traditional control methods or single-agent reinforcement learning, **MARL allows for the simultaneous learning of multiple decision-makers (agents).** This joint policy learning enables CAVs to develop cooperative strategies that are necessary for tasks like synchronized lane changing, platooning, or intersection management.
+- 👉 **Partial Observability and Information Sharing.**  CAVs might not be able to observe the entire traffic situation due to line-of-sight limitations, sensor range, or communication constraints.  **MARL algorithms can be designed to allow agents to make decisions based on partial information and to learn how to infer the missing information through interaction, which may include strategies for selective information sharing.**
+- 👉 **Scalable Learning and Decentralized Execution.** Provides a framework for scalable learning by allowing each agent to learn from its local observations while still considering the global outcome. **This can also lead to decentralized execution, where each CAV operates based on its policy without the need for a central controller, thus making the system more robust to single points of failure.**
 
 
-<!-- There are several awesome surveys and tutorials on semi-supervised, active learning, weakly-supervised learning, unsupervised learning, and self-supervised learning, while most of them focus on one of the topic and none of them are focusing on  applications. -->
-<!-- To our knowledge, our survey is the first one to provide a comprehensive and broader overview of multi-agent reinforcement learning on the extent of control dimensions for CAVs, covering critical and typical scenarios. -->
-<!-- Since each survey focuses on specific traffic scenarios, we attach a label to each of them to distinguish these topics.
-, including `platooning control`, `cooperative lane-changing`, `traffic signal control`, `on-ramps merging`, and `unsignalized intersections` (which means a broader perspective). -->
-
+We all know collecting extensive labeled examples are usually expensive 💰.
 The following topics are included: ![](https://img.shields.io/badge/-platooning%20control-brightgreen)
 ![](https://img.shields.io/badge/-cooperative%20lane--changing-yellow)
 ![](https://img.shields.io/badge/-traffic%20signal%20control-orange)
