@@ -10,16 +10,16 @@ A curated list of awesome **Multi-Agent Reinforcement Learning in Connected and 
 
 ---
 
-<!-- What is instruction learning?
-Why instruction learning?
+<!-- What is multi-agent reinforcement learning?
+Why multi-agent reinforcement learning?
 -->
 
 <!-- TODO
 ## Our scope:
-We aim to stay up-to-date with the most innovative developments in the field and gain valuable insights into the future of instruction-learning technology.👀 organize a systematic and comprehensive overview of instructional learning.
+We aim to stay up-to-date with the most innovative developments in the field and gain valuable insights into the future of multi-agent reinforcement learning technology.👀 organize a systematic and comprehensive overview of multi-agent reinforcement learning.
 
 1. Stay up-to-date with the most innovative developments in this field.
-2. Gain valuable insights into the future of instruction-learning technology.
+2. Gain valuable insights into the future of multi-agent reinforcement learning technology.
 3. 
 -->
 
@@ -65,8 +65,8 @@ Please consider citing our paper. 👇👇👇
 ## 🔍 Table of Contents 
 
 - [1. 💁🏽‍♀️ Introduction](#1-️-introduction)
--    [1.1. Development of CAV Control](#11--development-of-cav-control)
--    [1.2. Contributions of this review](#12--contributions-of-this-review)
+-    [1.1. Development of CAV Control](#11-development-of-cav-control)
+-    [1.2. Contributions of this review](#12-contributions-of-this-review)
 - [2. 🗂️ Backgrounds](#2-️-backgrounds)
   - [2.1 Multi-agent system for CAV Control](#21-multi-agent-system-for-cav-control)
   - [2.2 Preliminaries of Reinforcement Learning (RL)](#21-preliminaries-of-reinforcement-learning-(rl))
@@ -102,7 +102,7 @@ Please consider citing our paper. 👇👇👇
 
 ### 1.2 Contributions of this review
 
-Why label-efficient learning instead of supervised learning?
+Why multi-agent reinforcement learning on the extent of control dimensions for connected and automated vehicles(CAVs)?
 
 - 👉 **Affordable.**  For supervised learning, each task usually requires extensive labeled examples 💰. While for instruction learning, each task may require only one instruction and just a few examples 🤩.
 - 👉 **One model, all tasks.** An ideal AI system should be able to quickly understand and handle various new tasks 💫.
@@ -112,7 +112,7 @@ Why label-efficient learning instead of supervised learning?
 
 
 <!-- There are several awesome surveys and tutorials on semi-supervised, active learning, weakly-supervised learning, unsupervised learning, and self-supervised learning, while most of them focus on one of the topic and none of them are focusing on  applications. -->
-<!-- To our knowledge, our survey is the first one to provide a comprehensive and broader overview of multi-agent reinforcement learning on on the extent of control dimensions for CAVs, covering critical and typical scenarios. -->
+<!-- To our knowledge, our survey is the first one to provide a comprehensive and broader overview of multi-agent reinforcement learning on the extent of control dimensions for CAVs, covering critical and typical scenarios. -->
 <!-- Since each survey focuses on specific traffic scenarios, we attach a label to each of them to distinguish these topics.
 , including `platooning control`, `cooperative lane-changing`, `traffic signal control`, `on-ramps merging`, and `unsignalized intersections` (which means a broader perspective). -->
 
