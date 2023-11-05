@@ -65,8 +65,8 @@ Please consider citing our paper. 👇👇👇
 ## 🔍 Table of Contents 
 
 - [1. 💁🏽‍♀️ Introduction](#1-️-introduction)
--    [1.1. 🎓 Development of CAV Control](#11--development-of-cav-Control)
--    [1.2. 🎓 Contributions of this review](#12--contributions-of-this-review)
+-    [1.1. Development of CAV Control](#11--development-of-cav-Control)
+-    [1.2. Contributions of this review](#12--contributions-of-this-review)
 - [2. 🗂️ Backgrounds](#3-️-backgrounds)
   - [2.1 Multi-agent system for CAV Control](#21-multi-agent-system-for-cav-control)
   - [2.2 Preliminaries of Reinforcement Learning (RL)](#21-preliminaries-of-reinforcement-learning-(rl))
@@ -108,16 +108,16 @@ Why label-efficient learning instead of supervised learning?
 <!-- We all know collecting extensive labeled examples are usually expensive 💰. -->
 
 
-<!-- There are several awesome surveys and tutorials on semi-supervised, active learning, weakly-supervised learning, unsupervised learning, and self-supervised learning, while most of them focus on one of the topic and none of them are focusing on agricutural applications. -->
-<!-- To our knowledge, our survey is the first one to provide a comprehensive and broader overview of the field of label-efficient learning. -->
-<!-- Since each survey focuses on specific supervision types, we attach a label to each of them to distinguish these topics.
-, including `active learning`, `semi-supervised learning`, `weakly supervised leaning`, `self-supervised leaning` and `unsupervised learning` (which means a broader perspective). -->
+<!-- There are several awesome surveys and tutorials on semi-supervised, active learning, weakly-supervised learning, unsupervised learning, and self-supervised learning, while most of them focus on one of the topic and none of them are focusing on  applications. -->
+<!-- To our knowledge, our survey is the first one to provide a comprehensive and broader overview of multi-agent reinforcement learning on on the extent of control dimensions for CAVs, covering critical and typical scenarios. -->
+<!-- Since each survey focuses on specific traffic scenarios, we attach a label to each of them to distinguish these topics.
+, including `platooning control`, `cooperative lane-changing`, `traffic signal control`, `on-ramps merging`, and `unsignalized intersections` (which means a broader perspective). -->
 
-The following topics are included: ![](https://img.shields.io/badge/-active--learning-brightgreen)
-![](https://img.shields.io/badge/-semi--supervised%20learning-yellow)
-![](https://img.shields.io/badge/-weakly%20supervised%20leaning-orange)
-![](https://img.shields.io/badge/-self--supervised%20leaning-blue)
-![](https://img.shields.io/badge/-unsupervised%20learning-red)
+The following topics are included: ![](https://img.shields.io/badge/-platooning%20control-brightgreen)
+![](https://img.shields.io/badge/-cooperative%20lane--changing-yellow)
+![](https://img.shields.io/badge/-traffic%20signal%20control-orange)
+![](https://img.shields.io/badge/-on--ramps%20merging-blue)
+![](https://img.shields.io/badge/-unsignalized%20intersections-red)
   
 1. Zhou, Zhi-Hua. **"A brief introduction to weakly supervised learning."**  National science review 5.1 (2018): 44-53.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+brief+introduction+to+weakly+supervised+learning&btnG=) [[Paper]](https://academic.oup.com/nsr/article/5/1/44/4093912) ![](https://img.shields.io/badge/-active--learning-brightgreen) ![](https://img.shields.io/badge/-semi--supervised%20learning-yellow)  ![](https://img.shields.io/badge/-weakly%20supervised%20leaning-orange)
 
