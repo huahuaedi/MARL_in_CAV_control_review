@@ -27,7 +27,7 @@ We aim to stay up-to-date with the most innovative developments in the field and
 <!-- omit in toc -->
 ## How to contribute?
 
-If you have any suggestions or find any missed papers, feel free to reach out or submit a [pull request](https://github.com/DongChen06/Label-efficient-in-Agriculture/pulls):
+If you have any suggestions or find any missed papers, feel free to reach out or submit a [pull request](https://github.com/huahuaedi/MARL_in_CAV_control/pulls):
 
 1. Use following markdown format.
 
