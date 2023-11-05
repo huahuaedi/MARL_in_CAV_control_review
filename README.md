@@ -404,6 +404,3 @@ Instructions are used in various human-computer interaction (HCI) tasks, such as
 ---
 
 <!-- omit in toc -->
-## ⭐ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=DongChen06/Label-efficient-in-Agriculture&type=Date)](https://star-history.com/#DongChen06/Label-efficient-in-Agriculture&Date)
