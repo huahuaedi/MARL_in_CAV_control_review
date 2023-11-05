@@ -87,6 +87,7 @@ Please consider citing our paper. 👇👇👇
       - [3.3.1 Traffic signal control](#321-traffic-signal-control)
       - [3.3.2 On-ramps merging](#322-unsupervised-representation-learning)
       - [3.3.3 Unsignalized intersections](#322-unsignalized-intersections)
+  - [3.4 Simulation platforms](#33-three-dimensional-Cooperation)
 - [4. 📚 Corpora](#4--corpora)
 - [5. 📖 Extended Reading](#5--extended-reading)
   - [5.1 Instruction Induction](#51-instruction-induction)
@@ -107,7 +108,16 @@ Why label-efficient learning instead of supervised learning?
 <!-- We all know collecting extensive labeled examples are usually expensive 💰. -->
 
 
-## 2. 🎓 Surveys and Tutorials
+## 2. 🎓 Backgrounds
+
+In our paper, we divide the textual instructions into three categories.
+
+### 2.1 Multi-agent system for CAV Control
+
+
+### 2.2 Preliminaries of Reinforcement Learning (RL)
+
+#### 2.2.1 Deep Q-Learning
 
 <!-- There are several awesome surveys and tutorials on semi-supervised, active learning, weakly-supervised learning, unsupervised learning, and self-supervised learning, while most of them focus on one of the topic and none of them are focusing on agricutural applications. -->
 <!-- To our knowledge, our survey is the first one to provide a comprehensive and broader overview of the field of label-efficient learning. -->
@@ -156,14 +166,18 @@ The following topics are included: ![](https://img.shields.io/badge/-active--lea
 
 18. Aljalbout, Elie, et al. **"Clustering with deep learning: Taxonomy and new methods."** arXiv preprint arXiv:1801.07648 (2018). [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=+Clustering+with+deep+learning%3A+Taxonomy+and+new+methods&btnG=) [[Paper]](https://arxiv.org/pdf/1801.07648.pdf].) ![](https://img.shields.io/badge/-unsupervised%20learning-red)
 
+#### 2.2.2 Policy Gradient
 
-## 3. 🗂️ Taxonomy
+#### 2.2.3 Actor-critic Network
 
-In our paper, we divide the textual instructions into three categories.
 
-### 3.1 Weak Supervision
+### 2.3 Multi-Agent Reinforcement Learning (MARL)
 
-#### 3.1.1 Active learning
+
+
+### 2.4 Training and Execution Strategies in MARL
+
+#### 2.4.1 Centralized training with decentralized execution (CTDE)
 
 1. Scheffer, Tobias, Christian Decomain, and Stefan Wrobel. **"Active hidden markov models for information extraction."** Advances in Intelligent Data Analysis: 4th International Conference, IDA 2001 Cascais, Portugal, September 13–15, 2001 Proceedings 4. Springer Berlin Heidelberg, 2001. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Active+hidden+markov+models+for+information+extraction&btnG=) [[Paper]](https://link.springer.com/chapter/10.1007/3-540-44816-0_31)  ![](https://img.shields.io/badge/-active--learning-brightgreen)
 
@@ -177,7 +191,8 @@ In our paper, we divide the textual instructions into three categories.
 
 6. Geifman, Yonatan, and Ran El-Yaniv. **"Deep active learning with a neural architecture search."** Advances in Neural Information Processing Systems 32 (2019). [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Deep+active+learning+with+a+neural+architecture+search&btnG=) [[Paper]](https://proceedings.neurips.cc/paper/2019/file/b59307fdacf7b2db12ec4bd5ca1caba8-Paper.pdf)  ![](https://img.shields.io/badge/-active--learning-brightgreen)
 
-#### 3.1.2 Semi-supervised learning
+
+#### 2.4.2 Decentralized training with decentralized execution (DTDE)
 
 1. Lee, Dong-Hyun.  **"Pseudo-label: The simple and efficient semi-supervised learning method for deep neural networks."** Workshop on challenges in representation learning, ICML. Vol. 3. No. 2. 2013. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Pseudo-label%3A+The+simple+and+efficient+semi-supervised+learning+method+for+deep+neural+networks&btnG=) [[Paper]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Pseudo-label%3A+The+simple+and+efficient+semi-supervised+learning+method+for+deep+neural+networks&btnG=) [[Code]](https://github.com/iBelieveCJM/pseudo_label-pytorch) ![](https://img.shields.io/badge/-semi--supervised%20learning-yellow)
 
@@ -204,8 +219,11 @@ In our paper, we divide the textual instructions into three categories.
 12. Liu, Xiao, et al. **"Random forest construction with robust semisupervised node splitting."** IEEE Transactions on Image Processing 24.1 (2014): 471-483. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Random+forest+construction+with+robust+semisupervised+node+splitting.&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6975199&casa_token=PN8A1ZZ81gsAAAAA:NA_xF889mwDiaOe8Qjptvx-QbqcCYuTKpaPrWFUWxdcMQcEZbgTLcIUE109Fh2CqocHzGA9Gwco&tag=1) ![](https://img.shields.io/badge/-semi--supervised%20learning-yellow)
 
 13. Fu, Yinkai, et al. **"Semi-supervised segmentation of multi-scale soil pores based on a novel receptive field structure."** Computers and Electronics in Agriculture 212 (2023): 108071. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Semi-supervised+segmentation+of+multi-scale+soil+pores+based+on+a+novel+receptive+field+structure&btnG=)  [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169923004593)
+14. 
+### 2.5 MARL Algorithm Variants
 
-#### 3.1.3 Weakly supervised learning
+#### 2.5.1 Value function decomposition
+
 1. Andrews, Stuart, Ioannis Tsochantaridis, and Thomas Hofmann. **"Support vector machines for multiple-instance learning."** Advances in neural information processing systems 15 (2002). [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=+Support+vector+machines+for+multiple-instance+learning&btnG=) [[Paper]](https://proceedings.neurips.cc/paper/2002/file/3e6260b81898beacda3d16db379ed329-Paper.pdf) ![](https://img.shields.io/badge/-weakly%20supervised%20leaning-orange)
 
 2. Wu, Jiajun, et al. **"Deep multiple instance learning for image classification and auto-annotation."** Proceedings of the IEEE conference on computer vision and pattern recognition. 2015.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Deep+multiple+instance+learning+for+image+classification+and+auto-annotation.&btnG=) [[Paper]](https://openaccess.thecvf.com/content_cvpr_2015/html/Wu_Deep_Multiple_Instance_2015_CVPR_paper.html) ![](https://img.shields.io/badge/-weakly%20supervised%20leaning-orange)
@@ -220,8 +238,8 @@ In our paper, we divide the textual instructions into three categories.
 
 7. Wang, Haofan, et al. **"Score-CAM: Score-weighted visual explanations for convolutional neural networks."** Proceedings of the IEEE/CVF conference on computer vision and pattern recognition workshops. 2020. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Score-cam%3A+Score-weighted+visual+explanations+for+convolutional+neural+networks&btnG=) [[Paper]](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w1/Wang_Score-CAM_Score-Weighted_Visual_Explanations_for_Convolutional_Neural_Networks_CVPRW_2020_paper.pdf)  [[Code]](https://github.com/haofanwang/Score-CAM) ![](https://img.shields.io/badge/-weakly%20supervised%20leaning-orange)
 
-### 3.2 No supervision
-#### 3.2.1 Self-supervised learning   
+#### 2.5.2 Learning to Communicate
+
 1. Caron, Mathilde, et al. **"Deep clustering for unsupervised learning of visual features."** Proceedings of the European conference on computer vision (ECCV). 2018. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Deep+clustering+for+unsupervised+learning+of+visual+features.&btnG=) [[Paper]](https://openaccess.thecvf.com/content_ECCV_2018/papers/Mathilde_Caron_Deep_Clustering_for_ECCV_2018_paper.pdf) ![](https://img.shields.io/badge/-self--supervised%20leaning-blue)
 
 2. Yang, Jianwei, Devi Parikh, and Dhruv Batra. **"Joint unsupervised learning of deep representations and image clusters."** Proceedings of the IEEE conference on computer vision and pattern recognition. 2016. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Joint+unsupervised+learning+of+deep+representations+and+image+clusters.&btnG=) [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Yang_Joint_Unsupervised_Learning_CVPR_2016_paper.pdf)  [[Code]](https://github.com/jwyang/JULE.torch) ![](https://img.shields.io/badge/-self--supervised%20leaning-blue)
@@ -243,16 +261,19 @@ In our paper, we divide the textual instructions into three categories.
 10. Zhuang, Chengxu, Alex Lin Zhai, and Daniel Yamins. "Local aggregation for unsupervised learning of visual embeddings." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2019.
  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=+Local+aggregation+for+unsupervised+learning+of+visual+embeddings.&btnG=) [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhuang_Local_Aggregation_for_Unsupervised_Learning_of_Visual_Embeddings_ICCV_2019_paper.pdf) ![](https://img.shields.io/badge/-self--supervised%20leaning-blue)
 
-#### 3.2.2 Unsupervised representation learning   
+#### 2.5.3 Hierarchical structure
 1. Arthur, David, and Sergei Vassilvitskii. **"K-means++ the advantages of careful seeding."** Proceedings of the eighteenth annual ACM-SIAM symposium on Discrete algorithms. 2007. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=K-means%2B%2B+the+advantages+of+careful+seeding&btnG=) [[Paper]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=K-means%2B%2B+the+advantages+of+careful+seeding&btnG=) ![](https://img.shields.io/badge/-unsupervised%20learning-red)
 
 2. Yang, Jianwei, Devi Parikh, and Dhruv Batra. "Joint unsupervised learning of deep representations and image clusters." Proceedings of the IEEE conference on computer vision and pattern recognition. 2016. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Joint+unsupervised+learning+of+deep+representations+and+image+clusters&btnG=) [[Paper]](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Yang_Joint_Unsupervised_Learning_CVPR_2016_paper.pdf) [[Code]](https://github.com/jwyang/JULE.torch) ![](https://img.shields.io/badge/-unsupervised%20learning-red)
 
 3. Ji, Zeguang, et al. "SEDLNet: An unsupervised precise lightweight extraction method for farmland areas." Computers and Electronics in Agriculture 210 (2023): 107886.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=SEDLNet%3A+An+unsupervised+precise+lightweight+extraction+method+for+farmland+areas&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169923002740)
 
-## 4. 🤖 Applications
+#### 2.5.4 Causal inference
 
-### 4.1 Plant health
+
+## 3. 🤖 Towards applications in connected and autonomous vehicles
+
+### 3.1 One-dimensional Cooperation
 
 Instructions are used in various human-computer interaction (HCI) tasks, such as virtual assistants, chatbots, etc. 
 
@@ -282,7 +303,8 @@ Instructions are used in various human-computer interaction (HCI) tasks, such as
 
 13. Benfenati, Alessandro, et al. **"Unsupervised deep learning techniques for automatic detection of plant diseases: reducing the need of manual labelling of plant images."** Journal of Mathematics in Industry 13.1 (2023): 1-16. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Unsupervised+deep+learning+techniques+for+automatic+detection+of+plant+diseases%3A+reducing+the+need+of+manual+labelling+of+plant+images&btnG=)  [[Paper]](https://link.springer.com/article/10.1186/s13362-023-00133-6) ![](https://img.shields.io/badge/-unsupervised%20learning-red)
 
-### 4.2 Weed and crop management
+### 3.2 Two-dimensional Cooperation
+
 1. Marszalek, Michael L., et al. **"Self-supervised learning--A way to minimize time and effort for precision agriculture?."** arXiv preprint arXiv:2204.02100 (2022). [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Self-supervised+learning--A+way+to+minimize+time+and+effort+for+precision+agriculture%3F&btnG=) [[Paper]](https://arxiv.org/abs/2204.02100)  ![](https://img.shields.io/badge/-self--supervised%20leaning-blue)
 
 2. Yang, Yana, et al. **"Dissimilarity-based active learning for embedded weed identification."** Turkish Journal of Agriculture and Forestry 46.3 (2022): 390-401. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Dissimilarity-based+active+learning+for+embedded+weed+identification&btnG=) [[Paper]](https://journals.tubitak.gov.tr/agriculture/vol46/iss3/11/) ![](https://img.shields.io/badge/-active--learning-brightgreen)
@@ -301,7 +323,9 @@ Instructions are used in various human-computer interaction (HCI) tasks, such as
 
 9. Pérez-Ortiz, Maria, et al. **"A semi-supervised system for weed mapping in sunflower crops using unmanned aerial vehicles and a crop row detection method."** Applied Soft Computing 37 (2015): 533-544. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+semi-supervised+system+for+weed+mapping+in+sunflower+crops+using+unmanned+aerial+vehicles+and+a+crop+row+detection+method&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S1568494615005281?casa_token=Kx34E34LQjUAAAAA:MzVxJgy_iDyIVXTrpkUPy6amDT2IDNiDimhakt0gc8CObSyUb1fpvEZkrz5eZP-EAoUiCtbaLrE)  ![](https://img.shields.io/badge/-semi--supervised%20learning-yellow)
 
-### 4.3 Fruit detection
+### 3.3 Three-dimensional Cooperation
+
+#### 3.3.1 Traffic signal control
 1. Ciarfuglia, Thomas A., et al. **"Weakly and semi-supervised detection, segmentation and tracking of table grapes with limited and noisy data."** Computers and Electronics in Agriculture 205 (2023): 107624. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Weakly+and+Semi-Supervised+Detection%2C+Segmentation+and+Tracking+of+Table+Grapes+with+Limited+and+Noisy+Data&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169923000121)  ![](https://img.shields.io/badge/-weakly%20supervised%20leaning-orange)
 
 2. Bhattarai, Uddhav, and Manoj Karkee. **"A weakly-supervised approach for flower/fruit counting in apple orchards."** Computers in Industry 138 (2022): 103635. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+weakly-supervised+approach+for+flower%2Ffruit+counting+in+apple+orchards&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0166361522000306?casa_token=xWeCzyeEZZUAAAAA:LUjMhynGwwsck4eA-rHwfmSlEPYmSr8BRLwiSdyYLfCRMzt-jS6akIiGCRBnNR7ccLM8pcKeVLQ)  ![](https://img.shields.io/badge/-weakly%20supervised%20leaning-orange)
@@ -318,10 +342,14 @@ Instructions are used in various human-computer interaction (HCI) tasks, such as
 
 8. Roy, Pravakar, et al. **"Vision-based preharvest yield mapping for apple orchards."** Computers and Electronics in Agriculture 164 (2019): 104897. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Vision-based+preharvest+yield+mapping+for+apple+orchards&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169919303436?casa_token=0cpG4d1hc50AAAAA:LysqbihEr3zY5-2Ub7zl878HhgwHCQgzOt5wysTou9B1bKXdXxxkkcr2rZBVXgfku30onUkaCZE)  ![](https://img.shields.io/badge/-semi--supervised%20learning-yellow)
 
-### 4.4 Aquaculture
+
+#### 3.3.2 On-ramps merging
+
 1. Kong, Qingchen, et al. **"A recurrent network based on active learning for the assessment of fish feeding status."** Computers and Electronics in Agriculture 198 (2022): 106979. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+recurrent+network+based+on+active+learning+for+the+assessment+of+fish+feeding+status&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169922002964?casa_token=3sEdz3v21LgAAAAA:Xt0sn8l-FcWHyTSPuTPg-zR1nIkH59hhu0yl2uju8z2kDi2yjGVYfIo-egNbffOruatbiO4C6Qw)  ![](https://img.shields.io/badge/-active--learning-brightgreen)
 
-### 4.5 Plant Phenotyping
+
+#### 3.3.3 Unsignalized intersections
+
 1. Lin, Xufeng, et al. **"Self-Supervised Leaf Segmentation under Complex Lighting Conditions."** Pattern Recognition 135 (2023): 109021. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Self-Supervised+Leaf+Segmentation+under+Complex+Lighting+Conditions&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320322005015?casa_token=hbczlttXx3QAAAAA:Sj_D4jBQEBfVQpM2H1V3KTVqvFyzz1rvErGPqMFFIdVWSqiJMJMYONoWnRHGONStKrc4p-Vt0oM)  [[Code]](https://github.com/lxfhfut/Self-Supervised-Leaf-Segmentation) ![](https://img.shields.io/badge/-semi--supervised%20learning-yellow)
 
 2. Tschand, Arya. **"Semi-supervised machine learning analysis of crop color for autonomous irrigation."** Smart Agricultural Technology 3 (2023): 100116. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Semi-Supervised+Machine+Learning+Analysis+of+Crop+Color+for+Autonomous+Irrigation&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S2772375522000818) ![](https://img.shields.io/badge/-unsupervised%20learning-red)
@@ -362,8 +390,7 @@ Instructions are used in various human-computer interaction (HCI) tasks, such as
 
 20. Zhang, Ping, and Lihong Xu. **"Unsupervised segmentation of greenhouse plant images based on statistical method."** Scientific reports 8.1 (2018): 1-13. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Unsupervised+segmentation+of+greenhouse+plant+images+based+on+statistical+method&btnG=) [[Paper]](https://link.springer.com/content/pdf/10.1038/s41598-018-22568-3.pdf) ![](https://img.shields.io/badge/-unsupervised%20learning-red)
 
-
-### 4.6 Postharvest quality assessment
+#### 3.3.4 Simulation Platforms
 1. Liu, Yisen, et al. **"Joint optimization of autoencoder and self-supervised classifier: anomaly detection of strawberries using hyperspectral imaging."** Computers and Electronics in Agriculture 198 (2022): 107007. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Joint+optimization+of+autoencoder+and+Self-Supervised+Classifier%3A+Anomaly+detection+of+strawberries+using+hyperspectral+imaging&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169922003246?casa_token=mbiSlzaiRvEAAAAA:6rfTcrs7MG1etkv2cGSz75ZfjBAUc0OdCa5l32TvDYmXNrqJ2iRcbNjC4Ee-F-rq4L0bLx3gz_4)  ![](https://img.shields.io/badge/-self--supervised%20leaning-blue)
 
 2. Li, Weitao, et al. **"Greengage grading using stochastic configuration networks and a semi-supervised feedback mechanism."** Information Sciences 488 (2019): 1-12. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Greengage+grading+using+stochastic+configuration+networks+and+a+semi-supervised+feedback+mechanism&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0020025519301501?casa_token=n_LudCJnoLQAAAAA:8OxTDeg7i8axhkrkSPksjPHqHKj_ecmbVXDEFqQaipZJ7z8FAOeptHb03E-Wzw2KUCvvjZwjz4M)  ![](https://img.shields.io/badge/-weakly%20supervised%20leaning-orange)
