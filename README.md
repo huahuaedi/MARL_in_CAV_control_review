@@ -108,17 +108,6 @@ Why label-efficient learning instead of supervised learning?
 <!-- We all know collecting extensive labeled examples are usually expensive 💰. -->
 
 
-## 2. 🎓 Backgrounds
-
-In our paper, we divide the textual instructions into three categories.
-
-### 2.1 Multi-agent system for CAV Control
-
-
-### 2.2 Preliminaries of Reinforcement Learning (RL)
-
-#### 2.2.1 Deep Q-Learning
-
 <!-- There are several awesome surveys and tutorials on semi-supervised, active learning, weakly-supervised learning, unsupervised learning, and self-supervised learning, while most of them focus on one of the topic and none of them are focusing on agricutural applications. -->
 <!-- To our knowledge, our survey is the first one to provide a comprehensive and broader overview of the field of label-efficient learning. -->
 <!-- Since each survey focuses on specific supervision types, we attach a label to each of them to distinguish these topics.
@@ -165,6 +154,17 @@ The following topics are included: ![](https://img.shields.io/badge/-active--lea
 17. Chicco, Davide. **"Siamese neural networks: An overview."** Artificial neural networks (2021): 73-94. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Siamese+neural+networks%3A+An+overview.&btnG=) [[Paper]](https://link.springer.com/protocol/10.1007/978-1-0716-0826-5_3) ![](https://img.shields.io/badge/-self--supervised%20leaning-blue)
 
 18. Aljalbout, Elie, et al. **"Clustering with deep learning: Taxonomy and new methods."** arXiv preprint arXiv:1801.07648 (2018). [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=+Clustering+with+deep+learning%3A+Taxonomy+and+new+methods&btnG=) [[Paper]](https://arxiv.org/pdf/1801.07648.pdf].) ![](https://img.shields.io/badge/-unsupervised%20learning-red)
+
+## 2. 🎓 Backgrounds
+
+In our paper, we divide the textual instructions into three categories.
+
+### 2.1 Multi-agent system for CAV Control
+
+
+### 2.2 Preliminaries of Reinforcement Learning (RL)
+
+#### 2.2.1 Deep Q-Learning
 
 #### 2.2.2 Policy Gradient
 
