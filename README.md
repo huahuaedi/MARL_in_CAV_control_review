@@ -98,7 +98,7 @@ Please consider citing our paper. 👇👇👇
 ## 1. 💁🏽‍♀️ Introduction
 ### 1.1 Development of CAV Control]
 
-![image]()
+![image](https://github.com/huahuaedi/MARL_in_CAV_control_review/blob/main/cav_framework.png)
 
 ### 1.2 Contributions of this review
 
