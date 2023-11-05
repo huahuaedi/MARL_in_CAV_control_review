@@ -65,12 +65,12 @@ Please consider citing our paper. 👇👇👇
 ## 🔍 Table of Contents 
 
 - [1. 💁🏽‍♀️ Introduction](#1-️-introduction)
--    [1.1. Development of CAV Control](#11--development-of-cav-Control)
+-    [1.1. Development of CAV Control](#11--development-of-cav-control)
 -    [1.2. Contributions of this review](#12--contributions-of-this-review)
-- [2. 🗂️ Backgrounds](#3-️-backgrounds)
+- [2. 🗂️ Backgrounds](#2-️-backgrounds)
   - [2.1 Multi-agent system for CAV Control](#21-multi-agent-system-for-cav-control)
   - [2.2 Preliminaries of Reinforcement Learning (RL)](#21-preliminaries-of-reinforcement-learning-(rl))
-      - [2.2.1 Deep Q-Learning](#221-deep-Q-learning)
+      - [2.2.1 Deep Q-Learning](#221-deep-q-learning)
       - [2.2.2 Policy Gradient](#222-policy-gradient)
       - [2.2.3 Actor-critic Network](#223-actor-critic-network)
   - [2.3 Multi-Agent Reinforcement Learning (MARL)](#23-multi-agent-reinforcement-learning-(marl))
@@ -87,7 +87,7 @@ Please consider citing our paper. 👇👇👇
       - [3.3.1 Traffic signal control](#321-traffic-signal-control)
       - [3.3.2 On-ramps merging](#322-unsupervised-representation-learning)
       - [3.3.3 Unsignalized intersections](#322-unsignalized-intersections)
-  - [3.4 Simulation platforms](#33-three-dimensional-Cooperation)
+  - [3.4 Simulation platforms](#33-three-dimensional-cooperation)
 - [4. 📚 Corpora](#4--corpora)
 - [5. 📖 Extended Reading](#5--extended-reading)
   - [5.1 Instruction Induction](#51-instruction-induction)
@@ -96,8 +96,8 @@ Please consider citing our paper. 👇👇👇
 
 
 ## 1. 💁🏽‍♀️ Introduction
-
-
+### 1.1 Development of CAV Control]
+### 1.2 Contributions of this review
 
 Why label-efficient learning instead of supervised learning?
 
