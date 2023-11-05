@@ -72,7 +72,7 @@ Please consider citing our paper. 👇👇👇
   - [2.2 Preliminaries of Reinforcement Learning (RL)](#21-preliminaries-of-reinforcement-learning-(RL))
       - [2.2.1 Deep Q-Learning](#221-deep-Q-learning)
       - [2.2.2 Policy Gradient](#222-policy-gradient)
-      - [2.2.3 Actor-critic Network](#223-actor-critic network)
+      - [2.2.3 Actor-critic Network](#223-actor-critic-network)
   - [2.3 Multi-Agent Reinforcement Learning (MARL)](#23-multi-agent-reinforcement-learning-(MARL))
   - [2.4 Training and Execution Strategies in MARL](#24-training-and-execution-strategies-in-MARL)
       - [2.4.1 Centralized training with decentralized execution (CTDE)](#241-centralized-training-with-decentralized-execution-(CTDE))
