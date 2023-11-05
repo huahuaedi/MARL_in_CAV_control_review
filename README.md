@@ -69,7 +69,7 @@ Please consider citing our paper. 👇👇👇
 -    [1.2. Contributions of this review](#12-contributions-of-this-review)
 - [2. 🗂️ Backgrounds](#2-️-backgrounds)
   - [2.1 Multi-agent system for CAV Control](#21-multi-agent-system-for-cav-control)
-  - [2.2 Preliminaries of Reinforcement Learning (RL)](#21-preliminaries-of-reinforcement-learning)
+  - [2.2 Preliminaries of Reinforcement Learning](#22-preliminaries-of-reinforcement-learning)
       - [2.2.1 Deep Q-Learning](#221-deep-q-learning)
       - [2.2.2 Policy Gradient](#222-policy-gradient)
       - [2.2.3 Actor-critic Network](#223-actor-critic-network)
@@ -110,14 +110,13 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 - 👉 **Scalable Learning and Decentralized Execution.** Provides a framework for scalable learning by allowing each agent to learn from its local observations while still considering the global outcome. **This can also lead to decentralized execution, where each CAV operates based on its policy without the need for a central controller, thus making the system more robust to single points of failure.**
 
 
-We all know collecting extensive labeled examples are usually expensive 💰.
-The following topics are included: ![](https://img.shields.io/badge/-platooning%20control-brightgreen)
+We all know collecting extensive labeled examples are usually expensive 💰. The following topics are included: ![](https://img.shields.io/badge/-platooning%20control-brightgreen)
 ![](https://img.shields.io/badge/-cooperative%20lane--changing-yellow)
 ![](https://img.shields.io/badge/-traffic%20signal%20control-orange)
 ![](https://img.shields.io/badge/-on--ramps%20merging-blue)
 ![](https://img.shields.io/badge/-unsignalized%20intersections-red)
-  
-1. Zhou, Zhi-Hua. **"A brief introduction to weakly supervised learning."**  National science review 5.1 (2018): 44-53.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+brief+introduction+to+weakly+supervised+learning&btnG=) [[Paper]](https://academic.oup.com/nsr/article/5/1/44/4093912) ![](https://img.shields.io/badge/-active--learning-brightgreen) ![](https://img.shields.io/badge/-semi--supervised%20learning-yellow)  ![](https://img.shields.io/badge/-weakly%20supervised%20leaning-orange)
+ 
+1. Wang, Wenshuo, et al. **"Social interactions for autonomous driving: A review and perspectives."** Foundations and Trends® in Robotics 10.3-4 (2022): 198-376.  [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Social+interactions+for+autonomous+driving%3A+A+review+and+perspectives&btnG=) [[Paper]](https://www.nowpublishers.com/article/Details/ROB-078) 
 
 2. Kääriäinen, Matti. **"Active learning in the non-realizable case."** International Conference on Algorithmic Learning Theory. Springer, Berlin, Heidelberg, 2006.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Active+learning+in+the+non-realizable+case&btnG=) [[Paper]](https://link.springer.com/chapter/10.1007/11894841_9)  ![](https://img.shields.io/badge/-active--learning-brightgreen)
 
