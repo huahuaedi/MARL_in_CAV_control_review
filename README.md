@@ -110,11 +110,6 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 - 👉 **Scalable Learning and Decentralized Execution.** Provides a framework for scalable learning by allowing each agent to learn from its local observations while still considering the global outcome. **This can also lead to decentralized execution, where each CAV operates based on its policy without the need for a central controller, thus making the system more robust to single points of failure.**
 
 
-We all know collecting extensive labeled examples are usually expensive 💰. The following topics are included: ![](https://img.shields.io/badge/-platooning%20control-brightgreen)
-![](https://img.shields.io/badge/-cooperative%20lane--changing-yellow)
-![](https://img.shields.io/badge/-traffic%20signal%20control-orange)
-![](https://img.shields.io/badge/-on--ramps%20merging-blue)
-![](https://img.shields.io/badge/-unsignalized%20intersections-red)
  
 1. Wang, Wenshuo, et al. **"Social interactions for autonomous driving: A review and perspectives."** Foundations and Trends® in Robotics 10.3-4 (2022): 198-376.  [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Social+interactions+for+autonomous+driving%3A+A+review+and+perspectives&btnG=) [[Paper]](https://www.nowpublishers.com/article/Details/ROB-078) 
 
@@ -269,6 +264,7 @@ In our paper, we divide the textual instructions into three categories.
 
 
 ## 3. 🤖 Towards applications in connected and autonomous vehicles
+
 
 ### 3.1 One-dimensional Cooperation
 
