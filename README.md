@@ -50,14 +50,14 @@ Please consider citing our paper. 👇👇👇
 
 *(**Note that the current version of our survey is only a draft, and we are still working on it.**)* 🚀
 
-```
+<!-- ```
 @article{li2023label,
   title={Label-Efficient Learning in Agriculture: A Comprehensive Review},
   author={Li, Jiajia and Chen, Dong and Qi, Xinda and Li, Zhaojian and Huang, Yanbo and Morris, Daniel and Tan, Xiaobo},
   journal={arXiv preprint arXiv:2305.14691},
   year={2023}
 }
-```
+```-->
 
 <!-- TODO: add survey citation and link -->
 
