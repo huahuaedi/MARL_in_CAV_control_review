@@ -116,7 +116,7 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 
 2. Fei-Yue Wang. **"Artificial intelligence and intelligent transportation: Driving into the 3rd axial age with ITS"** International Conference on Algorithmic Learning Theory. Springer, Berlin, Heidelberg, 2006.  [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Artificial+intelligence+and+intelligent+transportation%3A+Driving+into+the+3rd+axial+age+with+ITS&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8082803) 
 
-3. Schmarje, Lars, et al. **"A survey on semi-, self-and unsupervised learning for image classification."** IEEE Access 9 (2021): 82146-82168.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+survey+on+semi-%2C+self-and+unsupervised+learning+for+image+classification&btnG=) [[Paper]](https://ieeexplore.ieee.org/abstract/document/9442775) !
+3. Wei, Liu, et al. **"A Systematic Survey of Control Techniques and Applications in Connected and Automated Vehicles."** IEEE Access 9 (2021): 82146-82168.  [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=A+Systematic+Survey+of+Control+Techniques+and+Applications+in+Connected+and+Automated+Vehicles&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10225497) 
 
 4. Jing, Longlong, and Yingli Tian. **"Self-supervised visual feature learning with deep neural networks: A survey."** IEEE transactions on pattern analysis and machine intelligence 43.11 (2020): 4037-4058.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Self-supervised+visual+feature+learning+with+deep+neural+networks%3A+A+survey&btnG=) [[Paper]](https://ieeexplore.ieee.org/abstract/document/9086055)  
 
@@ -319,7 +319,7 @@ Instructions are used in various human-computer interaction (HCI) tasks, such as
 ### 3.3 Three-dimensional Cooperation
 
 #### 3.3.1 Traffic signal control
-1. Ciarfuglia, Thomas A., et al. **"Weakly and semi-supervised detection, segmentation and tracking of table grapes with limited and noisy data."** Computers and Electronics in Agriculture 205 (2023): 107624. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Weakly+and+Semi-Supervised+Detection%2C+Segmentation+and+Tracking+of+Table+Grapes+with+Limited+and+Noisy+Data&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169923000121)  
+1. Mofan Zhou, et al. **"Development of an efficient driving strategy for connected and automated vehicles at signalized intersections: A reinforcement learning approach."** Computers and Electronics in Agriculture 205 (2023): 107624. [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Development+of+an+efficient+driving+strategy+for+connected+and+automated+vehicles+at+signalized+intersections%3A+A+reinforcement+learning+approach&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8848852)  
 
 2. Bhattarai, Uddhav, and Manoj Karkee. **"A weakly-supervised approach for flower/fruit counting in apple orchards."** Computers in Industry 138 (2022): 103635. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+weakly-supervised+approach+for+flower%2Ffruit+counting+in+apple+orchards&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0166361522000306?casa_token=xWeCzyeEZZUAAAAA:LUjMhynGwwsck4eA-rHwfmSlEPYmSr8BRLwiSdyYLfCRMzt-jS6akIiGCRBnNR7ccLM8pcKeVLQ)  
 
