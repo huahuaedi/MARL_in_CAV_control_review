@@ -114,7 +114,7 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
  
 1. Wang, Wenshuo, et al. **"Social interactions for autonomous driving: A review and perspectives."** Foundations and Trends® in Robotics 10.3-4 (2022): 198-376.  [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Social+interactions+for+autonomous+driving%3A+A+review+and+perspectives&btnG=) [[Paper]](https://www.nowpublishers.com/article/Details/ROB-078) 
 
-2. Kääriäinen, Matti. **"Active learning in the non-realizable case."** International Conference on Algorithmic Learning Theory. Springer, Berlin, Heidelberg, 2006.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Active+learning+in+the+non-realizable+case&btnG=) [[Paper]](https://link.springer.com/chapter/10.1007/11894841_9) 
+2. Fei-Yue Wang. **"Artificial intelligence and intelligent transportation: Driving into the 3rd axial age with ITS"** International Conference on Algorithmic Learning Theory. Springer, Berlin, Heidelberg, 2006.  [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Artificial+intelligence+and+intelligent+transportation%3A+Driving+into+the+3rd+axial+age+with+ITS&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8082803) 
 
 3. Schmarje, Lars, et al. **"A survey on semi-, self-and unsupervised learning for image classification."** IEEE Access 9 (2021): 82146-82168.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+survey+on+semi-%2C+self-and+unsupervised+learning+for+image+classification&btnG=) [[Paper]](https://ieeexplore.ieee.org/abstract/document/9442775) !
 
