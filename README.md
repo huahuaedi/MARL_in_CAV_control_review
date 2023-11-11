@@ -118,41 +118,12 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 
 3. Wei, Liu, et al. **"A Systematic Survey of Control Techniques and Applications in Connected and Automated Vehicles."** IEEE Access 9 (2021): 82146-82168.  [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=A+Systematic+Survey+of+Control+Techniques+and+Applications+in+Connected+and+Automated+Vehicles&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10225497) 
 
-4. Jing, Longlong, and Yingli Tian. **"Self-supervised visual feature learning with deep neural networks: A survey."** IEEE transactions on pattern analysis and machine intelligence 43.11 (2020): 4037-4058.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Self-supervised+visual+feature+learning+with+deep+neural+networks%3A+A+survey&btnG=) [[Paper]](https://ieeexplore.ieee.org/abstract/document/9086055)  
-
-5. Yan, Jun, and Xiangfeng Wang. **"Unsupervised and semi‐supervised learning: the next frontier in machine learning for plant systems biology."** The Plant Journal (2022).  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Unsupervised+and+semi%E2%80%90supervised+learning%3A+the+next+frontier+in+machine+learning+for+plant+systems+biology&btnG=) [[Paper]](https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.15905)
-
-6. Van Engelen, Jesper E., and Holger H. Hoos. **"A survey on semi-supervised learning."** Machine Learning 109.2 (2020): 373-440.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+survey+on+semi-supervised+learning&btnG=) [[Paper]](https://link.springer.com/article/10.1007/s10994-019-05855-6) 
-
-7. Fatima, Tazeen, and Tariq Mahmood. **"Semi-Supervised Learning in Smart Agriculture: A Systematic Literature Review."** 2021 6th International Multi-Topic ICT Conference (IMTIC). IEEE, 2021.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Semi-Supervised+Learning+in+Smart+Agriculture%3A+A+Systematic+Literature+Review&btnG=) [[Paper]](https://ieeexplore.ieee.org/abstract/document/9719809) 
-
-8. Sohn, Kihyuk, et al. **"A simple semi-supervised learning framework for object detection."** arXiv preprint arXiv:2005.04757 (2020).  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+simple+semi-supervised+learning+framework+for+object+detection&btnG=) [[Paper]](https://arxiv.org/abs/2005.04757)  ![]
-
-9. Shen, Wei, et al. **"A Survey on Label-efficient Deep Segmentation: Bridging the Gap between Weak Supervision and Dense Prediction."** arXiv preprint arXiv:2207.01223 (2022).  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+Survey+on+Label-efficient+Deep+Segmentation%3A+Bridging+the+Gap+between+Weak+Supervision+and+Dense+Prediction&btnG=) [[Paper]](https://arxiv.org/abs/2207.01223)  
-
-10. Settles, Burr. **"Active learning literature survey."** University of Wisconsin-Madison Department of Computer Sciences (2009). [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Active+learning+literature+survey&btnG=) [[Paper]](https://minds.wisconsin.edu/bitstream/handle/1793/60660/TR1648.pdf?sequence=1)  
-
-11. Ren, Pengzhen, et al. **"A survey of deep active learning."** ACM computing surveys (CSUR) 54.9 (2021): 1-40. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+survey+of+deep+active+learning&btnG=) [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3472291?casa_token=8z8Q0AaEKsgAAAAA:ECSiXZ3Hqo7a4V2g3H99L2zg2X9RcHZtzpuPpwuOSKQCq29pAkYSuFzIRHh2Ix8qYv4UaaNgS7Uc1A) 
-
-12. Aggarwal, Charu C., et al. **"Active learning: A survey."** Data classification. Chapman and Hall/CRC, 2014. 599-634. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Active+learning%3A+A+survey&btnG=) [[Paper]](https://www.taylorfrancis.com/chapters/edit/10.1201/b17320-27/active-learning-survey-charu-aggarwal-xiangnan-kong-quanquan-gu-jiawei-han-philip-yu) 
-
-13. Chong, Yanwen, et al. **"Graph-based semi-supervised learning: A review."** Neurocomputing 408 (2020): 216-230. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Graph-based+semi-supervised+learning%3A+A+review&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0925231220304938?casa_token=1qMKCz9EAxYAAAAA:uCWWy2guGQ7C8XUByKSVeSA9wvY1jhpYqKDBYeae6pv5tRBRCCZ3s_mTu7o5TzBf-2YdsZxd0ok) 
-
-14. Shen, Wei, et al.  **"A survey on label-efficient deep image segmentation: Bridging the gap between weak supervision and dense prediction. "**  IEEE Transactions on Pattern Analysis and Machine Intelligence (2023). [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+survey+on+label-efficient+deep+image+segmentation%3A+Bridging+the+gap+between+weak+supervision+and+dense+prediction&btnG=) [[Paper]](https://arxiv.org/pdf/2207.01223.pdf) ![]
-
-15. Foulds, James, and Eibe Frank. **"A review of multi-instance learning assumptions."** The knowledge engineering review 25.1 (2010): 1-25. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+review+of+multi-instance+learning+assumptions&btnG=) [[Paper]](https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0915098C83BF119A377015A45952247A/S026988890999035Xa.pdf/a-review-of-multi-instance-learning-assumptions.pdf) 
-
-16. Carbonneau, Marc-André, et al. **"Multiple instance learning: A survey of problem characteristics and applications."** Pattern Recognition 77 (2018): 329-353. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Multiple+instance+learning%3A+A+survey+of+problem+characteristics+and+applications.&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320317304065?casa_token=-E9KP7nrtTcAAAAA:4Wy2HGEpGroKeBWYuquGPhMHkUgvdNJ1y-UmHA77oJPhWz5YWptMu_auRTE1m3VsiJ3OH_cFHpI) 
-
-17. Chicco, Davide. **"Siamese neural networks: An overview."** Artificial neural networks (2021): 73-94. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Siamese+neural+networks%3A+An+overview.&btnG=) [[Paper]](https://link.springer.com/protocol/10.1007/978-1-0716-0826-5_3) 
-
-18. Aljalbout, Elie, et al. **"Clustering with deep learning: Taxonomy and new methods."** arXiv preprint arXiv:1801.07648 (2018). [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=+Clustering+with+deep+learning%3A+Taxonomy+and+new+methods&btnG=) [[Paper]](https://arxiv.org/pdf/1801.07648.pdf].) 
 
 ## 2. 🎓 Backgrounds
 
 In our paper, we divide the textual instructions into three categories.
 
-### 2.1 Multi-agent system for CAV Control
+### 2.1 Multi-agent System for CAV Control
 
 
 ### 2.2 Preliminaries of Reinforcement Learning (RL)
@@ -207,12 +178,7 @@ In our paper, we divide the textual instructions into three categories.
 
 10. Chapelle, Olivier, Vikas Sindhwani, and Sathiya S. Keerthi. **"Optimization techniques for semi-supervised support vector machines."** Journal of Machine Learning Research 9.2 (2008). [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Optimization+techniques+for+semi-supervised+support+vector+machines&btnG=) [[Paper]](https://www.jmlr.org/papers/volume9/chapelle08a/chapelle08a.pdf) 
 
-11. Liu, Wei, Jun Wang, and Shih-Fu Chang. **"Robust and scalable graph-based semisupervised learning."** Proceedings of the IEEE 100.9 (2012): 2624-2638. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Robust+and+scalable+graph-based+semisupervised+learning&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6235979&casa_token=vp1ZsX-HUWIAAAAA:ANYvFEh5y1bokr2V6DgjMoqUR_HDvIX0LDrg1zO6xxtHhQFMUtz_8WxsuKu1O88F9xDeC-fRZk0&tag=1) 
 
-12. Liu, Xiao, et al. **"Random forest construction with robust semisupervised node splitting."** IEEE Transactions on Image Processing 24.1 (2014): 471-483. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Random+forest+construction+with+robust+semisupervised+node+splitting.&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6975199&casa_token=PN8A1ZZ81gsAAAAA:NA_xF889mwDiaOe8Qjptvx-QbqcCYuTKpaPrWFUWxdcMQcEZbgTLcIUE109Fh2CqocHzGA9Gwco&tag=1) 
-
-13. Fu, Yinkai, et al. **"Semi-supervised segmentation of multi-scale soil pores based on a novel receptive field structure."** Computers and Electronics in Agriculture 212 (2023): 108071. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Semi-supervised+segmentation+of+multi-scale+soil+pores+based+on+a+novel+receptive+field+structure&btnG=)  [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169923004593)
-14. 
 ### 2.5 MARL Algorithm Variants
 
 #### 2.5.1 Value function decomposition
@@ -223,13 +189,6 @@ In our paper, we divide the textual instructions into three categories.
 
 3. Ilse, Maximilian, Jakub Tomczak, and Max Welling. **"Attention-based deep multiple instance learning."** International conference on machine learning. PMLR, 2018. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Attention-based+deep+multiple+instance+learning&btnG=) [[Paper]](http://proceedings.mlr.press/v80/ilse18a/ilse18a.pdf) 
 
-4. Zhou, Bolei, et al. **"Learning deep features for discriminative localization."** Proceedings of the IEEE conference on computer vision and pattern recognition. 2016. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=learning+deep+features+for+discriminative+localization.&btnG=) [[Paper]](https://openaccess.thecvf.com/content_cvpr_2016/papers/Zhou_Learning_Deep_Features_CVPR_2016_paper.pdf)  [[Code]](http://cnnlocalization.csail.mit.edu/) 
-
-5. Selvaraju, Ramprasaath R., et al. **"Grad-cam: Visual explanations from deep networks via gradient-based localization."** Proceedings of the IEEE international conference on computer vision. 2017. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Grad-cam%3A+Visual+explanations+from+deep+networks+via+gradientbased+localization&btnG=) [[Paper]](http://openaccess.thecvf.com/content_ICCV_2017/papers/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.pdf) [[Code]](https://github.com/ramprs/grad-cam/) 
-
-6. Chattopadhay, Aditya, et al. **"Grad-cam++: Generalized gradient-based visual explanations for deep convolutional networks."** 2018 IEEE winter conference on applications of computer vision (WACV). IEEE, 2018. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Grad-cam%2B%2B%3A+Generalized+gradient-based+visual+explanations+for+deep+convolutional+networks&btnG=) [[Paper]](https://ieeexplore.ieee.org/document/8354201?denied=) ![](https://img.shields.io/badge/-weakly%20supervised%20leaning-orange)
-
-7. Wang, Haofan, et al. **"Score-CAM: Score-weighted visual explanations for convolutional neural networks."** Proceedings of the IEEE/CVF conference on computer vision and pattern recognition workshops. 2020. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Score-cam%3A+Score-weighted+visual+explanations+for+convolutional+neural+networks&btnG=) [[Paper]](http://openaccess.thecvf.com/content_CVPRW_2020/papers/w1/Wang_Score-CAM_Score-Weighted_Visual_Explanations_for_Convolutional_Neural_Networks_CVPRW_2020_paper.pdf)  [[Code]](https://github.com/haofanwang/Score-CAM) ![](https://img.shields.io/badge/-weakly%20supervised%20leaning-orange)
 
 #### 2.5.2 Learning to Communicate
 
@@ -245,13 +204,6 @@ In our paper, we divide the textual instructions into three categories.
 
 6. Caron, Mathilde, et al. **"Unsupervised learning of visual features by contrasting cluster assignments."** Advances in neural information processing systems 33 (2020): 9912-9924. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Unsupervised+learning+of+visual+features+by+contrasting+cluster+assignments.+&btnG=) [[Paper]](https://proceedings.neurips.cc/paper/2020/file/70feb62b69f16e0238f741fab228fec2-Paper.pdf) [[Code]](https://github.com/facebookresearch/swav) 
 
-7. Chen, Ting, et al. **"A simple framework for contrastive learning of visual representations."** International conference on machine learning. PMLR, 2020. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+simple+framework+for+contrastive+learning+of+visual+representations&btnG=) [[Paper]](http://proceedings.mlr.press/v119/chen20j/chen20j.pdf) [[Code]](https://github.com/google-research/simclr) 
-
-8. Grill, Jean-Bastien, et al. "Bootstrap your own latent-a new approach to self-supervised learning." Advances in neural information processing systems 33 (2020): 21271-21284. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Bootstrap+your+own+latent-a+new+approach+to+self-supervised+learning&btnG=#d=gs_cit&t=1686511742030&u=%2Fscholar%3Fq%3Dinfo%3AUDYiz5Qo5EEJ%3Ascholar.google.com%2F%26output%3Dcite%26scirp%3D0%26hl%3Den) [[Paper]](https://proceedings.neurips.cc/paper/2020/file/f3ada80d5c4ee70142b17b8192b2958e-Paper.pdf) [[Code]](https://github.com/deepmind/deepmind-research/tree/master/byol) 
-
-9. Chen, Xinlei, and Kaiming He. "Exploring simple siamese representation learning." Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2021. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Exploring+simple+siamese+representation+learning.&btnG=) [[Paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Chen_Exploring_Simple_Siamese_Representation_Learning_CVPR_2021_paper.pdf) [[Code]](https://github.com/facebookresearch/simsiam) 
-10. Zhuang, Chengxu, Alex Lin Zhai, and Daniel Yamins. "Local aggregation for unsupervised learning of visual embeddings." Proceedings of the IEEE/CVF International Conference on Computer Vision. 2019.
- [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=+Local+aggregation+for+unsupervised+learning+of+visual+embeddings.&btnG=) [[Paper]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Zhuang_Local_Aggregation_for_Unsupervised_Learning_of_Visual_Embeddings_ICCV_2019_paper.pdf) 
 
 #### 2.5.3 Hierarchical structure
 1. Arthur, David, and Sergei Vassilvitskii. **"K-means++ the advantages of careful seeding."** Proceedings of the eighteenth annual ACM-SIAM symposium on Discrete algorithms. 2007. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=K-means%2B%2B+the+advantages+of+careful+seeding&btnG=) [[Paper]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=K-means%2B%2B+the+advantages+of+careful+seeding&btnG=) 
@@ -280,21 +232,8 @@ Instructions are used in various human-computer interaction (HCI) tasks, such as
 
 5. Li, Yang, and Xuewei Chao. **"Semi-supervised few-shot learning approach for plant diseases recognition."** Plant Methods 17 (2021): 1-10. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Semi-supervised+few-shot+learning+approach+for+plant+diseases+recognition&btnG=) [[Paper]](https://link.springer.com/article/10.1186/s13007-021-00770-1) 
 
-6. Fang, Uno, et al. **"Self-supervised cross-iterative clustering for unlabeled plant disease images."** Neurocomputing 456 (2021): 36-48. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Self-supervised+cross-iterative+clustering+for+unlabeled+plant+disease+images&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0925231221008195?casa_token=FDyn5_5p9Z4AAAAA:5Pa6vYQxPOq2UUyI9MDEW4sze8j9jnDTyHEAJOuV0pAFjEE4FXHjAzJfioZKHdqTf5wZiCoXKC8)  
+ 
 
-7. Bollis, Edson, Helio Pedrini, and Sandra Avila. **"Weakly supervised learning guided by activation mapping applied to a novel citrus pest benchmark."** Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. 2020. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Weakly+Supervised+Learning+Guided+by+Activation+Mapping+Applied+to+a+Novel+Citrus+Pest+Benchmark&btnG=) [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2020/html/w5/Bollis_Weakly_Supervised_Learning_Guided_by_Activation_Mapping_Applied_to_a_CVPRW_2020_paper.html) 
-
-8. Kim, Wan-Soo, Dae-Hyun Lee, and Yong-Joo Kim. **"Machine vision-based automatic disease symptom detection of onion downy mildew."** Computers and Electronics in Agriculture 168 (2020): 105099. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Machine+vision-based+automatic+disease+symptom+detection+of+onion+downy+mildew&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169919312384?casa_token=t87d75GPawEAAAAA:6CaaYYmbO0npqZUS_Z8vc1iSyWwleVrXE09-6EH_PFreuiouNor3j8iaJU63wXHO0l8v3aLee2s)  
-
-9. Amorim, Willian Paraguassu, et al. **"Semi-supervised learning with convolutional neural networks for UAV images automatic recognition."** Computers and Electronics in Agriculture 164 (2019): 104932. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Semi-supervised+learning+with+convolutional+neural+networks+for+UAV+images+automatic+recognition&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169919305137?casa_token=qXrhLwpucfEAAAAA:8hXzr4MjJ99ilbJrmRv7YzqRz-F-xarGFbnHFiVNh-3JEMMCmFxj41VCkLhKt_21lTE0p5n6Jy4)  
-
-10. Lu, Jiang, et al. **"An in-field automatic wheat disease diagnosis system."** Computers and electronics in agriculture 142 (2017): 369-379. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=An+in-field+automatic+wheat+disease+diagnosis+system&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169917305999?casa_token=0xuJdaxkrScAAAAA:4XdlseWCH5VKNQxwuhFIN41Xi4dSOpDUXzfVbEtMMQvDrjrXee9rFsAhljK9bjIVP5ZvqZ9C9iQ) 
-
-11. Wu, Yang, and Lihong Xu. **"Crop organ segmentation and disease identification based on weakly supervised deep neural network."** Agronomy 9.11 (2019): 737. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=%22Crop+Organ+Segmentation+and+Disease+Identification+Based+on+Weakly+Supervised+Deep+Neural+Network+%22&btnG=) [[Paper]](https://www.mdpi.com/2073-4395/9/11/737)  
-
-12. Wang, Yinkai, et al. **"Integrated Learning-Based Pest and Disease Detection Method for Tea Leaves."** Forests 14.5 (2023): 1012. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Integrated+Learning-Based+Pest+and+Disease+Detection+Method+for+Tea+Leaves&btnG=)  [[Paper]](https://www.mdpi.com/1999-4907/14/5/1012)
-
-13. Benfenati, Alessandro, et al. **"Unsupervised deep learning techniques for automatic detection of plant diseases: reducing the need of manual labelling of plant images."** Journal of Mathematics in Industry 13.1 (2023): 1-16. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Unsupervised+deep+learning+techniques+for+automatic+detection+of+plant+diseases%3A+reducing+the+need+of+manual+labelling+of+plant+images&btnG=)  [[Paper]](https://link.springer.com/article/10.1186/s13362-023-00133-6) 
 
 ### 3.2 Two-dimensional Cooperation
 
@@ -309,12 +248,7 @@ Instructions are used in various human-computer interaction (HCI) tasks, such as
 5. Shorewala, Shantam, et al. **"Weed density and distribution estimation for precision agriculture using semi-supervised learning."** IEEE access 9 (2021): 27971-27986. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Weed+Density+and+Distribution+Estimation+for+Precision+Agriculture+Using+Semi-Supervised+Learning&btnG=) [[Paper]](https://ieeexplore.ieee.org/abstract/document/9350244) 
 
 6. Hu, Chengsong, J. Alex Thomasson, and Muthukumar V. Bagavathiannan. **"A powerful image synthesis and semi-supervised learning pipeline for site-specific weed detection."** Computers and Electronics in Agriculture 190 (2021): 106423. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+powerful+image+synthesis+and+semi-supervised+learning+pipeline+for+site-specific+weed+detection&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169921004403?casa_token=qbLLY8XNSGoAAAAA:Xo4rcwElVN_SDaVDNPJLekHBVcgRx9tb7TMKXFsfmKT_Az3LXq9ewaCHCx2MMhDl0MDBNJYnH5A)  
-
-7. dos Santos Ferreira, Alessandro, et al. **"Unsupervised deep learning and semi-automatic data labeling in weed discrimination."** Computers and Electronics in Agriculture 165 (2019): 104963. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Unsupervised+deep+learning+and+semi-automatic+data+labeling+in+weed+discrimination&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169919313237?casa_token=sLtTIEsj7L8AAAAA:F_01KTJcFtECjvpazMTf9MEJgDCOSWy_2ACUwV1b8XgZ9FEnE9Tz8zDNPgNRP3wd8j6jyN_Y7EU)  
-
-8. Bah, M. Dian, Adel Hafiane, and Raphael Canals. **"Deep learning with unsupervised data labeling for weed detection in line crops in UAV images."** Remote sensing 10.11 (2018): 1690. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Deep+Learning+with+Unsupervised+Data+Labeling+for+Weed+Detection+in+Line+Crops+in+UAV+Images&btnG=) [[Paper]](https://www.mdpi.com/2072-4292/10/11/1690) 
-
-9. Pérez-Ortiz, Maria, et al. **"A semi-supervised system for weed mapping in sunflower crops using unmanned aerial vehicles and a crop row detection method."** Applied Soft Computing 37 (2015): 533-544. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+semi-supervised+system+for+weed+mapping+in+sunflower+crops+using+unmanned+aerial+vehicles+and+a+crop+row+detection+method&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S1568494615005281?casa_token=Kx34E34LQjUAAAAA:MzVxJgy_iDyIVXTrpkUPy6amDT2IDNiDimhakt0gc8CObSyUb1fpvEZkrz5eZP-EAoUiCtbaLrE)  
+  
 
 ### 3.3 Three-dimensional Cooperation
 
@@ -354,32 +288,7 @@ Instructions are used in various human-computer interaction (HCI) tasks, such as
 
 6. Zhang, Xin, et al. **"The Self-Supervised Spectral–Spatial Vision Transformer Network for Accurate Prediction of Wheat Nitrogen Status from UAV Imagery."** Remote Sensing 14.6 (2022): 1400. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=The+Self-Supervised+Spectral%E2%80%93Spatial+Vision+Transformer+Network+for+Accurate+Prediction+of+Wheat+Nitrogen+Status+from+UAV+Imagery&btnG=) [[Paper]](https://www.mdpi.com/2072-4292/14/6/1400)  
 
-7. Qiang, Zhuang, Jingmin Shi, and Fanhuai Shi. **"Phenotype Tracking of Leafy Greens Based on Weakly Supervised Instance Segmentation and Data Association."** Agronomy 12.7 (2022): 1567. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Phenotype+Tracking+of+Leafy+Greens+Based+on+Weakly+Supervised+Instance+Segmentation+and+Data+Association&btnG=) [[Paper]](https://www.mdpi.com/2073-4395/12/7/1567)  
 
-8. Adke, Shrinidhi, et al. **"Supervised and weakly supervised deep learning for segmentation and counting of cotton bolls using proximal imagery."** Sensors 22.10 (2022): 3688. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Supervised+and+Weakly+Supervised+Deep+Learning+for+Segmentation+and+Counting+of+Cotton+Bolls+Using+Proximal+Imagery&btnG=) [[Paper]](https://www.mdpi.com/1424-8220/22/10/3688) 
-
-9. Dandrifosse, Sébastien, et al. **"Deep learning for wheat ear segmentation and ear density measurement: From heading to maturity."** Computers and Electronics in Agriculture 199 (2022): 107161. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Deep+learning+for+wheat+ear+segmentation+and+ear+density+measurement%3A+From+heading+to+maturity&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169922004781?casa_token=t3uK4RCbltYAAAAA:9p9kRe3Hzm0VOlGPIb7x5T2mAB9SBFkLfXxQUYi0T-Nsbs2lQlii43OYWtowG55tT8VCQUUdeMw) 
-
-10. Petti, Daniel, and Changying Li. **"Weakly-supervised learning to automatically count cotton flowers from aerial imagery."** Computers and Electronics in Agriculture 194 (2022): 106734.  [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Weakly-supervised+learning+to+automatically+count+cotton+flowers+from+aerial+imagery&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169922000515?casa_token=X9YWbhowQK4AAAAA:1vrbgGZ8p8NA8cUoTnNtg4FCv9B9e_8NXqkxcCiQX0Xf-sl8bHA_p7dgHQjsN56YcSennvOjzHs)  
-11. Kim, Wan-Soo, et al. **"Weakly supervised crop area segmentation for an autonomous combine harvester."** Sensors 21.14 (2021): 4801. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Weakly+Supervised+Crop+Area+Segmentation+for+an+Autonomous+Combine+Harvester&btnG=) [[Paper]](https://www.mdpi.com/1424-8220/21/14/4801)  
-
-12. Siddique, Abubakar, Amy Tabb, and Henry Medeiros. **"Self-supervised Learning for Panoptic Segmentation of Multiple Fruit Flower Species."** IEEE Robotics and Automation Letters 7.4 (2022): 12387-12394. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Self-supervised+Learning+for+Panoptic+Segmentation+of+Multiple+Fruit+Flower+Species&btnG=) [[Paper]](https://ieeexplore.ieee.org/document/9928359?casa_token=UptjC3JQnB4AAAAA:ktJySPWen4i5GCfi_DfXvDTW61vG_lrRs6jEz5Pg8KBDMTEYpNZBNa_2OObIBa8JShJymAwnQu0)  
-
-13. Najafian, Keyhan, et al. **"A semi-self-supervised learning approach for wheat head detection using extremely small number of labeled samples."** Proceedings of the IEEE/CVF International Conference on Computer Vision. 2021. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+Semi-self-supervised+Learning+Approach+for+Wheat+Head+Detection+using+Extremely+Small+Number+of+Labeled+Samples&btnG=) [[Paper]](https://openaccess.thecvf.com/content/ICCV2021W/CVPPA/html/Najafian_A_Semi-Self-Supervised_Learning_Approach_for_Wheat_Head_Detection_Using_Extremely_ICCVW_2021_paper.html)  
-
-14. Fourati, Fares, Wided Souidene Mseddi, and Rabah Attia. **"Wheat head detection using deep, semi-supervised and ensemble learning."** Canadian Journal of Remote Sensing 47.2 (2021): 198-208. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=An+original+framework+for+Wheat+Head+Detection+using+Deep%2C+Semi-supervised+and+Ensemble+Learning+within+Global+Wheat+Head+Detection+%28GWHD%29+Dataset&btnG=) [[Paper]](https://www.tandfonline.com/doi/abs/10.1080/07038992.2021.1906213)  
-
-15. Ghosal, Sambuddha, et al. **"A weakly supervised deep learning framework for sorghum head detection and counting."** Plant Phenomics (2019). [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+Weakly+Supervised+Deep+Learning+Framework+for+Sorghum+Head+Detection+and+Counting&btnG=) [[Paper]](https://spj.science.org/doi/full/10.34133/2019/1525874) 
-
-16. Chandra, Akshay L., et al. **"Active learning with point supervision for cost-effective panicle detection in cereal crops."** Plant Methods 16 (2020): 1-16. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Active+learning+with+point+supervision+for+cost-effective+panicle+detection+in+cereal+crops&btnG=) [[Paper]](https://link.springer.com/article/10.1186/s13007-020-00575-8)  
-
-17. Ayalew, Tewodros W., Jordan R. Ubbens, and Ian Stavness. **"Unsupervised domain adaptation for plant organ counting."** Computer Vision–ECCV 2020 Workshops: Glasgow, UK, August 23–28, 2020, Proceedings, Part VI 16. Springer International Publishing, 2020. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Unsupervised+Domain+Adaptation+For+Plant+Organ+Counting&btnG=) [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-65414-6_23) 
-
-18. Valerio Giuffrida, Mario, et al. **"Leaf counting without annotations using adversarial unsupervised domain adaptation."** Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops. 2019. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=%22Leaf+counting+without+annotations+using+adversarial+unsupervised+domain+adaptation%22&btnG=) [[Paper]](https://openaccess.thecvf.com/content_CVPRW_2019/html/CVPPP/Giuffrida_Leaf_Counting_Without_Annotations_Using_Adversarial_Unsupervised_Domain_Adaptation_CVPRW_2019_paper.html) 
-
-19. Wang, Yi, and Lihong Xu. **"Unsupervised segmentation of greenhouse plant images based on modified Latent Dirichlet Allocation."** PeerJ 6 (2018): e5036. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=%22Unsupervised+segmentation+of+greenhouse+plant+images+based+on+modified+latent+dirichlet+allocation%22&btnG=) [[Paper]](https://peerj.com/articles/5036/) 
-
-20. Zhang, Ping, and Lihong Xu. **"Unsupervised segmentation of greenhouse plant images based on statistical method."** Scientific reports 8.1 (2018): 1-13. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Unsupervised+segmentation+of+greenhouse+plant+images+based+on+statistical+method&btnG=) [[Paper]](https://link.springer.com/content/pdf/10.1038/s41598-018-22568-3.pdf) 
 
 #### 3.3.4 Simulation Platforms
 1. Liu, Yisen, et al. **"Joint optimization of autoencoder and self-supervised classifier: anomaly detection of strawberries using hyperspectral imaging."** Computers and Electronics in Agriculture 198 (2022): 107007. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Joint+optimization+of+autoencoder+and+Self-Supervised+Classifier%3A+Anomaly+detection+of+strawberries+using+hyperspectral+imaging&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169922003246?casa_token=mbiSlzaiRvEAAAAA:6rfTcrs7MG1etkv2cGSz75ZfjBAUc0OdCa5l32TvDYmXNrqJ2iRcbNjC4Ee-F-rq4L0bLx3gz_4)  
