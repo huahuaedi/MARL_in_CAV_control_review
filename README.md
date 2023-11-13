@@ -124,11 +124,15 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 
 
 ## 2. 🎓 Backgrounds
-
-
 ### 2.1 Preliminaries of Reinforcement Learning (RL)
 
+1. Kaelbling, Leslie Pack, Michael L. Littman, and Andrew W. Moore. **"Reinforcement learning: A survey."** Journal of artificial intelligence research 4 (1996): 237-285.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Reinforcement+learning%3A+A+survey&btnG=) [[Paper]](https://www.jair.org/index.php/jair/article/view/10166/24110) 
+
+
 #### 2.1.1 Deep Q-Learning
+
+
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
 
@@ -151,8 +155,8 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 
 #### 2.1.2 Policy Gradient
 
-
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+1. Schulman, John, et al. "Proximal policy optimization algorithms." arXiv preprint arXiv:1707.06347 (2017).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Proximal+policy+optimization+algorithms&btnG=) [[Paper]](https://arxiv.org/pdf/1707.06347.pdf)  [[Code]]() 
 
 
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
