@@ -74,8 +74,6 @@ Please consider citing our paper. 👇👇👇
       - [2.1.3 Actor-critic Network](#213-actor-critic-network)
   - [2.2 Multi-Agent Reinforcement Learning](#22-multi-agent-reinforcement-learning)
   - [2.3 Training and Execution Strategies in MARL](#23-training-and-execution-strategies-in-marl)
-      - [2.3.1 Centralized training with decentralized execution](#231-centralized-training-with-decentralized-execution)
-      - [2.3.2 Decentralized training with decentralized execution](#232-decentralized-training-with-decentralized-execution)
   - [2.4 MARL Algorithm Variants](#24-marl-algorithm-variants)
       - [2.4.1 Value function decomposition](#241-value-function-decomposition)
       - [2.4.2 Learning to Communicate](#242-learning-to-communicate)
@@ -120,14 +118,8 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 4. Schmidt, Lukas M., et al. **"An introduction to multi-agent reinforcement learning and review of its application to autonomous mobility."** 2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC). IEEE, 2022.
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=An+introduction+to+multi-agent+reinforcement+learning+and+review+of+its+application+to+autonomous+mobility&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9922205) 
 
-5. 
-[[Google Scholar]]() [[Paper]]() 
-
-6.  
-[[Google Scholar]]() [[Paper]]() 
-
-[[Google Scholar]]() [[Paper]]() 
-
+5. Dinneweth, Joris, et al. **"Multi-agent reinforcement learning for autonomous vehicles: A survey."** Autonomous Intelligent Systems 2.1 (2022): 27.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Multi-agent+reinforcement+learning+for+autonomous+vehicles%3A+A+survey&btnG=) [[Paper]](https://link.springer.com/article/10.1007/s43684-022-00045-z) 
 
 ## 2. 🎓 Backgrounds
 ### 2.1 Preliminaries of Reinforcement Learning (RL)
@@ -135,25 +127,25 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 1. Kaelbling, Leslie Pack, Michael L. Littman, and Andrew W. Moore. **"Reinforcement learning: A survey."** Journal of artificial intelligence research 4 (1996): 237-285.
 [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Reinforcement+learning%3A+A+survey&btnG=) [[Paper]](https://www.jair.org/index.php/jair/article/view/10166/24110) 
 
-2.
-[[Google Scholar]]() [[Paper]]() 
+2. Arulkumaran, Kai, et al. **"Deep reinforcement learning: A brief survey."** IEEE Signal Processing Magazine 34.6 (2017): 26-38.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Deep+reinforcement+learning%3A+A+brief+survey&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8103164) 
 
-3.
-[[Google Scholar]]() [[Paper]]() 
+3. Wang, Hao-nan, et al. **"Deep reinforcement learning: a survey."** Frontiers of Information Technology & Electronic Engineering 21.12 (2020): 1726-1744.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Deep+reinforcement+learning%3A+a+survey&btnG=) [[Paper]](https://link.springer.com/article/10.1631/FITEE.1900533) 
 
-4.
-[[Google Scholar]]() [[Paper]]() 
+4. **Reinforcement Learning: An Introduction.** 
+ [[Code]](https://github.com/dennybritz/reinforcement-learning) 
 
-5.
-[[Google Scholar]]() [[Paper]]() 
+5. Li, Yuxi. **"Deep reinforcement learning: An overview."** arXiv preprint arXiv:1701.07274 (2017).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=DEEP+REINFORCEMENT+LEARNING&btnG=) [[Paper]](https://arxiv.org/pdf/1810.06339v1.pdf) 
 
-6.
-[[Google Scholar]]() [[Paper]]() 
+6. Varuna Jayasiri, Nipun Wijerathne. **labml.ai Annotated Paper Implementations.**
+[[Code]](https://nn.labml.ai/)
 
 #### 2.1.1 Deep Q-Learning
 
-1.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+1. Mnih, Volodymyr, et al. "Playing atari with deep reinforcement learning." arXiv preprint arXiv:1312.5602 (2013).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Playing+Atari+with+Deep+Reinforcement+Learning&btnG=) [[Paper]](https://arxiv.org/pdf/1312.5602v1.pdf)  [[Code]](https://github.com/ray-project/ray/tree/master/rllib/algorithms/dqn) 
 
 2.
 [[Google Scholar]]() [[Paper]]()  [[Code]]()
@@ -220,24 +212,16 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 4. Tan, Ming. **"Multi-agent reinforcement learning: Independent vs. cooperative agents."** Proceedings of the tenth international conference on machine learning. 1993.
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Multi-agent+reinforcement+learning%3A+Independent+vs.+cooperative+agents.&btnG=) [[Paper]](https://books.google.co.uk/books?hl=zh-CN&lr=&id=TrqjBQAAQBAJ&oi=fnd&pg=PA330&dq=Multi-agent+reinforcement+learning:+Independent+vs.+cooperative+agents.&ots=v3_fYV6XSn&sig=ePsM7WCM6EwxuPiclMg1xyx8H8c&redir_esc=y#v=onepage&q=Multi-agent%20reinforcement%20learning%3A%20Independent%20vs.%20cooperative%20agents.&f=false) 
 
+5. Nguyen, Thanh Thi, Ngoc Duy Nguyen, and Saeid Nahavandi. **"Deep reinforcement learning for multiagent systems: A review of challenges, solutions, and applications."** IEEE transactions on cybernetics 50.9 (2020): 3826-3839.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Deep+reinforcement+learning+for+multiagent+systems%3A+A+review+of+challenges%2C+solutions%2C+and+applications&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9043893) 
+
+6. Chen, Hao. **"Multi-Agent Reinforcement Learning Papers with Code."**
+[[Code]](https://github.com/TimeBreaker/MARL-papers-with-code) 
+
+
 ### 2.3 Training and Execution Strategies in MARL
-1.
-[[Google Scholar]]() [[Paper]]() 
-
-2.
-[[Google Scholar]]() [[Paper]]() 
-
-3.
-[[Google Scholar]]() [[Paper]]() 
-
-4.
-[[Google Scholar]]() [[Paper]]() 
-
-5.
-[[Google Scholar]]() [[Paper]]() 
 
 #### 2.3.1 Centralized training with decentralized execution (CTDE)
-
 1.
 [[Google Scholar]]() [[Paper]]() 
 
@@ -253,7 +237,6 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 5.
 [[Google Scholar]]() [[Paper]]() 
 
-#### 2.3.2 Decentralized training with decentralized execution (DTDE)
 1.
 [[Google Scholar]]() [[Paper]]() 
 
@@ -276,16 +259,16 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 
 #### 2.4.1 Value function decomposition
 
-1. Sunehag, Peter, et al. **"Value-decomposition networks for cooperative multi-agent learning."** arXiv preprint arXiv:1706.05296 (2017).
-[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Value-decomposition+networks+for+cooperative+multi-agent+learning&btnG=) [[Paper]](https://arxiv.org/pdf/1706.05296.pdf) 
+1. Son, Kyunghwan, et al. **"Qtran: Learning to factorize with transformation for cooperative multi-agent reinforcement learning."** International conference on machine learning. PMLR, 2019.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=QTRAN%3A+Learning+to+Factorize+with+Transformation+for+Cooperative+Multi-Agent+Reinforcement+learning&btnG=) [[Paper]](https://arxiv.org/pdf/1905.05408.pdf) [[Code]](https://github.com/oxwhirl/pymarl)
 
 2. Rashid, Tabish, et al. **"Monotonic value function factorisation for deep multi-agent reinforcement learning."** The Journal of Machine Learning Research 21.1 (2020): 7234-7284.
-[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Monotonic+value+function+factorisation+for+deep+multi-agent+reinforcement+learning&btnG=) [[Paper]](https://dl.acm.org/doi/pdf/10.5555/3455716.3455894) 
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Monotonic+value+function+factorisation+for+deep+multi-agent+reinforcement+learning&btnG=) [[Paper]](https://proceedings.mlr.press/v80/rashid18a/rashid18a.pdf)  [[Code]](https://github.com/oxwhirl/pymarl)
 
-3.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+3. Sunehag, Peter, et al. **"Value-decomposition networks for cooperative multi-agent learning."** arXiv preprint arXiv:1706.05296 (2017).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Value-Decomposition+Networks+For+Cooperative+Multi-Agent+Learning&btnG=) [[Paper]](https://arxiv.org/pdf/1706.05296.pdf)  [[Code]](https://github.com/oxwhirl/pymarl) 
 
-4.
+4. 
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
 5.
@@ -297,19 +280,19 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 #### 2.4.2 Learning to Communicate
 
 1. Sukhbaatar, Sainbayar, and Rob Fergus. **"Learning multiagent communication with backpropagation."** Advances in neural information processing systems 29 (2016).
-[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Learning+multiagent+communication+with+backpropagation&btnG=) [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2016/file/55b1927fdafef39c48e5b73b5d61ea60-Paper.pdf)
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Learning+multiagent+communication+with+backpropagation&btnG=) [[Paper]](https://arxiv.org/pdf/1605.07736.pdf)  [[Code]](https://github.com/facebookarchive/CommNet)
 
 2. Foerster, Jakob, et al. **"Learning to communicate with deep multi-agent reinforcement learning."** Advances in neural information processing systems 29 (2016).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Learning+to+communicate+with+deep+multi-agent+reinforcement+learning&btnG=) [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2016/file/c7635bfd99248a2cdef8249ef7bfbef4-Paper.pdf) 
 
-3.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+3. Peng, Peng, et al. **"Multiagent bidirectionally-coordinated nets: Emergence of human-level coordination in learning to play starcraft combat games."** arXiv preprint arXiv:1703.10069 (2017).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Multiagent+Bidirectionally-Coordinated+Nets+Emergence+of+Human-level+Coordination+in+Learning+to+Play+StarCraft+Combat+Games&btnG=) [[Paper]](https://arxiv.org/pdf/1703.10069.pdf)  [[Code]](https://github.com/Coac/CommNet-BiCnet) 
 
-4.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+4. Singh, Amanpreet, Tushar Jain, and Sainbayar Sukhbaatar. **"Learning when to communicate at scale in multiagent cooperative and competitive tasks."** arXiv preprint arXiv:1812.09755 (2018).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=LEARNING+WHEN+TO+COMMUNICATE+AT+SCALE+IN+MULTIAGENT+COOPERATIVE+AND+COMPETITIVE+TASKS&btnG=) [[Paper]](https://arxiv.org/pdf/1812.09755.pdf)  [[Code]](https://github.com/IC3Net/IC3Net) 
 
-5.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+5. Foerster, Jakob, et al. **"Learning to communicate with deep multi-agent reinforcement learning."** Advances in neural information processing systems 29 (2016).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Learning+to+Communicate+with+Deep+Multi-Agent+Reinforcement+Learning&btnG=) [[Paper]](https://arxiv.org/pdf/1605.06676.pdf)  [[Code]](https://github.com/iassael/learning-to-communicate) 
 
 6.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
