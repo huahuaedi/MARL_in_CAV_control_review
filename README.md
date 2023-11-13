@@ -65,7 +65,7 @@ Please consider citing our paper. 👇👇👇
 ## 🔍 Table of Contents 
 
 - [1. 💁🏽‍♀️ Introduction](#1-️-introduction)
--    [1.1. Development of CAV Control](#11-development-of-cav-control)
+-    [1.1. Multi-agent System for CAV Control](#11-multi-agent-system-for-cav-control)
 -    [1.2. Contributions of this review](#12-contributions-of-this-review)
 - [2. 🗂️ Backgrounds](#2-️-backgrounds)
   - [2.1 Preliminaries of Reinforcement Learning](#21-preliminaries-of-reinforcement-learning)
@@ -95,7 +95,7 @@ Please consider citing our paper. 👇👇👇
 
 
 ## 1. 💁🏽‍♀️ Introduction
-### 1.1 Development of CAV Control]
+### 1.1 Multi-agent System for CAV Control
 
 ![image](https://github.com/huahuaedi/MARL_in_CAV_control_review/blob/main/cav_framework.png)
 
@@ -111,98 +111,131 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 
 
  
-1. Wang, Wenshuo, et al. **"Social interactions for autonomous driving: A review and perspectives."** Foundations and Trends® in Robotics 10.3-4 (2022): 198-376.  [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Social+interactions+for+autonomous+driving%3A+A+review+and+perspectives&btnG=) [[Paper]](https://www.nowpublishers.com/article/Details/ROB-078) 
+1. Wang, Wenshuo, et al. **"Social interactions for autonomous driving: A review and perspectives."** Foundations and Trends® in Robotics 10.3-4 (2022): 198-376. 
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Social+interactions+for+autonomous+driving%3A+A+review+and+perspectives&btnG=) [[Paper]](https://www.nowpublishers.com/article/Details/ROB-078) 
 
-2. Fei-Yue Wang. **"Artificial intelligence and intelligent transportation: Driving into the 3rd axial age with ITS"** International Conference on Algorithmic Learning Theory. Springer, Berlin, Heidelberg, 2006.  [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Artificial+intelligence+and+intelligent+transportation%3A+Driving+into+the+3rd+axial+age+with+ITS&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8082803) 
+2. Wang, Fei-Yue. **"Artificial intelligence and intelligent transportation: Driving into the 3rd axial age with ITS"** IEEE Intelligent transportation systems magazine 9.4 (2017): 6-9.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Artificial+intelligence+and+intelligent+transportation%3A+Driving+into+the+3rd+axial+age+with+ITS&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8082803) 
 
-3. Wei, Liu, et al. **"A Systematic Survey of Control Techniques and Applications in Connected and Automated Vehicles."** IEEE Access 9 (2021): 82146-82168.  [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=A+Systematic+Survey+of+Control+Techniques+and+Applications+in+Connected+and+Automated+Vehicles&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10225497) 
+3. Liu, Wei, et al. **"A systematic survey of control techniques and applications in connected and automated vehicles."** IEEE Internet of Things Journal (2023).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=A+Systematic+Survey+of+Control+Techniques+and+Applications+in+Connected+and+Automated+Vehicles&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10225497) 
+
+
 
 
 ## 2. 🎓 Backgrounds
 
-In our paper, we divide the textual instructions into three categories.
 
-### 2.1 Multi-agent System for CAV Control
+### 2.1 Preliminaries of Reinforcement Learning (RL)
 
+#### 2.1.1 Deep Q-Learning
 
-### 2.2 Preliminaries of Reinforcement Learning (RL)
+#### 2.1.2 Policy Gradient
 
-#### 2.2.1 Deep Q-Learning
-
-#### 2.2.2 Policy Gradient
-
-#### 2.2.3 Actor-critic Network
+#### 2.1.3 Actor-critic Network
 
 
-### 2.3 Multi-Agent Reinforcement Learning (MARL)
+### 2.2 Multi-Agent Reinforcement Learning (MARL)
 
 
 
-### 2.4 Training and Execution Strategies in MARL
+### 2.3 Training and Execution Strategies in MARL
+[[Google Scholar]]() [[Paper]]() 
+#### 2.3.1 Centralized training with decentralized execution (CTDE)
 
-#### 2.4.1 Centralized training with decentralized execution (CTDE)
+[[Google Scholar]]() [[Paper]]() 
+
+#### 2.3.2 Decentralized training with decentralized execution (DTDE)
+
+[[Google Scholar]]() [[Paper]]() 
+
+### 2.4 MARL Algorithm Variants
+
+#### 2.4.1 Value function decomposition
+
+1. Sunehag, Peter, et al. **"Value-decomposition networks for cooperative multi-agent learning."** arXiv preprint arXiv:1706.05296 (2017).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Value-decomposition+networks+for+cooperative+multi-agent+learning&btnG=) [[Paper]](https://arxiv.org/pdf/1706.05296.pdf) 
+
+2. Rashid, Tabish, et al. **"Monotonic value function factorisation for deep multi-agent reinforcement learning."** The Journal of Machine Learning Research 21.1 (2020): 7234-7284.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Monotonic+value+function+factorisation+for+deep+multi-agent+reinforcement+learning&btnG=) [[Paper]](https://dl.acm.org/doi/pdf/10.5555/3455716.3455894) 
 
 
+#### 2.4.2 Learning to Communicate
 
-#### 2.4.2 Decentralized training with decentralized execution (DTDE)
+1. Sukhbaatar, Sainbayar, and Rob Fergus. **"Learning multiagent communication with backpropagation."** Advances in neural information processing systems 29 (2016).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Learning+multiagent+communication+with+backpropagation&btnG=)[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2016/file/55b1927fdafef39c48e5b73b5d61ea60-Paper.pdf)
 
+2. 
+#### 2.4.3 Hierarchical structure
+1. Arthur, David, and Sergei Vassilvitskii. **"K-means++ the advantages of careful seeding."** Proceedings of the eighteenth annual ACM-SIAM symposium on Discrete algorithms. 2007. 
+[[Google Scholar]]() [[Paper]]() 
 
-
-### 2.5 MARL Algorithm Variants
-
-#### 2.5.1 Value function decomposition
-
-
-
-#### 2.5.2 Learning to Communicate
-
-
-
-#### 2.5.3 Hierarchical structure
-1. Arthur, David, and Sergei Vassilvitskii. **"K-means++ the advantages of careful seeding."** Proceedings of the eighteenth annual ACM-SIAM symposium on Discrete algorithms. 2007. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=K-means%2B%2B+the+advantages+of+careful+seeding&btnG=) [[Paper]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=K-means%2B%2B+the+advantages+of+careful+seeding&btnG=) 
-
-#### 2.5.4 Causal inference
+#### 2.4.4 Causal inference
 
 
 ## 3. 🤖 Towards applications in connected and autonomous vehicles
 
+In this section, we will comprehensively explore the recent strides made in the utilization of MARL within CAV applications. Our examination will be structured according to various dimensions of cooperation, each correlated with a specific number of control components. 
+
+**One-dimensional cooperation** corresponds to scenarios involving control along a single control direction, such as either longitudinal control or lateral control.
+
+**Two-dimensional cooperation** extends the scope to include both longitudinal and lateral control components, reflecting the increased complexity in the coordination and decision-making of CAVs.
+
+**Three-dimensional cooperation** further augments the challenges and opportunities by incorporating additional constraints, such as time limits, which encompass aspects like traffic light control and on-ramp merging.
+
+
 
 ### 3.1 One-dimensional Cooperation
 
-Instructions are used in various human-computer interaction (HCI) tasks, such as virtual assistants, chatbots, etc. 
-
-1. Coletta, Luiz FS, et al. **"Novelty detection in UAV images to identify emerging threats in eucalyptus crops."** Computers and Electronics in Agriculture 196 (2022): 106901. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Novelty+detection+in+UAV+images+to+identify+emerging+threats+in+eucalyptus+crops&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169922002186?casa_token=ZFhy1QK7aakAAAAA:wI-NrE3CAa8ph4hZ_iuU-qB0hXz6c6Kpn4f5P301ZI7qxFC4R6mxiOOogDMET4qBwo8zhARxUnE)  
+1. Coletta, Luiz FS, et al. **"Novelty detection in UAV images to identify emerging threats in eucalyptus crops."** Computers and Electronics in Agriculture 196 (2022): 106901. 
+[[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Novelty+detection+in+UAV+images+to+identify+emerging+threats+in+eucalyptus+crops&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169922002186?casa_token=ZFhy1QK7aakAAAAA:wI-NrE3CAa8ph4hZ_iuU-qB0hXz6c6Kpn4f5P301ZI7qxFC4R6mxiOOogDMET4qBwo8zhARxUnE)  
 
  
 
 
 ### 3.2 Two-dimensional Cooperation
 
-1. Marszalek, Michael L., et al. **"Self-supervised learning--A way to minimize time and effort for precision agriculture?."** arXiv preprint arXiv:2204.02100 (2022). [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Self-supervised+learning--A+way+to+minimize+time+and+effort+for+precision+agriculture%3F&btnG=) [[Paper]](https://arxiv.org/abs/2204.02100) 
+1. Marszalek, Michael L., et al. **"Self-supervised learning--A way to minimize time and effort for precision agriculture?."** arXiv preprint arXiv:2204.02100 (2022). 
+[[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Self-supervised+learning--A+way+to+minimize+time+and+effort+for+precision+agriculture%3F&btnG=) [[Paper]](https://arxiv.org/abs/2204.02100) 
 
 
 
 ### 3.3 Three-dimensional Cooperation
 
 #### 3.3.1 Traffic signal control
-1. Mofan Zhou, et al. **"Development of an efficient driving strategy for connected and automated vehicles at signalized intersections: A reinforcement learning approach."** Computers and Electronics in Agriculture 205 (2023): 107624. [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Development+of+an+efficient+driving+strategy+for+connected+and+automated+vehicles+at+signalized+intersections%3A+A+reinforcement+learning+approach&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8848852)  
+1. Mofan Zhou, et al. **"Development of an efficient driving strategy for connected and automated vehicles at signalized intersections: A reinforcement learning approach."** Computers and Electronics in Agriculture 205 (2023): 107624. 
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Development+of+an+efficient+driving+strategy+for+connected+and+automated+vehicles+at+signalized+intersections%3A+A+reinforcement+learning+approach&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8848852)  
 
 
 #### 3.3.2 On-ramps merging
 
-1. Kong, Qingchen, et al. **"A recurrent network based on active learning for the assessment of fish feeding status."** Computers and Electronics in Agriculture 198 (2022): 106979. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+recurrent+network+based+on+active+learning+for+the+assessment+of+fish+feeding+status&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169922002964?casa_token=3sEdz3v21LgAAAAA:Xt0sn8l-FcWHyTSPuTPg-zR1nIkH59hhu0yl2uju8z2kDi2yjGVYfIo-egNbffOruatbiO4C6Qw)  
+1. Kong, Qingchen, et al. **"A recurrent network based on active learning for the assessment of fish feeding status."** Computers and Electronics in Agriculture 198 (2022): 106979. 
+[[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=A+recurrent+network+based+on+active+learning+for+the+assessment+of+fish+feeding+status&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169922002964?casa_token=3sEdz3v21LgAAAAA:Xt0sn8l-FcWHyTSPuTPg-zR1nIkH59hhu0yl2uju8z2kDi2yjGVYfIo-egNbffOruatbiO4C6Qw)  
 
 
 #### 3.3.3 Unsignalized intersections
 
-1. Lin, Xufeng, et al. **"Self-Supervised Leaf Segmentation under Complex Lighting Conditions."** Pattern Recognition 135 (2023): 109021. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Self-Supervised+Leaf+Segmentation+under+Complex+Lighting+Conditions&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320322005015?casa_token=hbczlttXx3QAAAAA:Sj_D4jBQEBfVQpM2H1V3KTVqvFyzz1rvErGPqMFFIdVWSqiJMJMYONoWnRHGONStKrc4p-Vt0oM)  [[Code]](https://github.com/lxfhfut/Self-Supervised-Leaf-Segmentation) 
+1. Lin, Xufeng, et al. **"Self-Supervised Leaf Segmentation under Complex Lighting Conditions."** Pattern Recognition 135 (2023): 109021. 
+[[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Self-Supervised+Leaf+Segmentation+under+Complex+Lighting+Conditions&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0031320322005015?casa_token=hbczlttXx3QAAAAA:Sj_D4jBQEBfVQpM2H1V3KTVqvFyzz1rvErGPqMFFIdVWSqiJMJMYONoWnRHGONStKrc4p-Vt0oM)  [[Code]](https://github.com/lxfhfut/Self-Supervised-Leaf-Segmentation) 
 
 
 
 
 #### 3.3.4 Simulation Platforms
-1. Liu, Yisen, et al. **"Joint optimization of autoencoder and self-supervised classifier: anomaly detection of strawberries using hyperspectral imaging."** Computers and Electronics in Agriculture 198 (2022): 107007. [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C23&q=Joint+optimization+of+autoencoder+and+Self-Supervised+Classifier%3A+Anomaly+detection+of+strawberries+using+hyperspectral+imaging&btnG=) [[Paper]](https://www.sciencedirect.com/science/article/pii/S0168169922003246?casa_token=mbiSlzaiRvEAAAAA:6rfTcrs7MG1etkv2cGSz75ZfjBAUc0OdCa5l32TvDYmXNrqJ2iRcbNjC4Ee-F-rq4L0bLx3gz_4)  
+1. Dosovitskiy, Alexey, et al. **"CARLA: An open urban driving simulator."** Conference on robot learning. PMLR, 2017.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=CARLA%3A+An+open+urban+driving+simulator&btnG=) [[Paper]](https://proceedings.mlr.press/v78/dosovitskiy17a/dosovitskiy17a.pdf)   [[Code]](https://github.com/carla-simulator/carla)
 
+2. Zhang, Huichu, et al. **"Cityflow: A multi-agent reinforcement learning environment for large scale city traffic scenario."** The world wide web conference. 2019.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0,5&q=Cityflow:+A+multi-agent+reinforcement+lear+Cityflow:+A+multi-agent+reinforcement+lear) [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3308558.3314139)  [[Code]](https://github.com/cityflow-project/CityFlow/) 
+
+3. Zhou, Ming, et al. **"Smarts: Scalable multi-agent reinforcement learning training school for autonomous driving."** arXiv preprint arXiv:2010.09776 (2020).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Smarts%3A+Scalable+multi-agent+reinforcement+learning+training+school+for+autonomous+driving&btnG=) [[Paper]](https://arxiv.org/pdf/2010.09776.pdf)  [[Code]](https://github.com/huawei-noah/SMARTS) 
+
+4. Li, Quanyi, et al. **"Metadrive: Composing diverse driving scenarios for generalizable reinforcement learning."** IEEE transactions on pattern analysis and machine intelligence 45.3 (2022): 3461-3475.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Metadrive%3A+Composing+diverse+driving+scenarios+for+generalizable+reinforcement+learning&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9829243)  [[Code]](https://github.com/metadriverse/metadrive) 
+
+5. Lopez, Pablo Alvarez, et al. **"Microscopic traffic simulation using sumo."** 2018 21st international conference on intelligent transportation systems (ITSC). IEEE, 2018.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Microscopic+traffic+simulation+using+sumo&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8569938)  [[Code]](https://github.com/eclipse-sumo/sumo/tree/main) 
 
 <!-- TODO: tweets & slides? -->
 
