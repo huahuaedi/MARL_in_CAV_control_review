@@ -108,9 +108,6 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 - 👉 **Partial Observability and Information Sharing.**  CAVs might not be able to observe the entire traffic situation due to line-of-sight limitations, sensor range, or communication constraints.  **MARL algorithms can be designed to allow agents to make decisions based on partial information and to learn how to infer the missing information through interaction, which may include strategies for selective information sharing.**
 - 👉 **Scalable Learning and Decentralized Execution.** Provides a framework for scalable learning by allowing each agent to learn from its local observations while still considering the global outcome. **This can also lead to decentralized execution, where each CAV operates based on its policy without the need for a central controller, thus making the system more robust to single points of failure.** ![](https://img.shields.io/badge/-platooning%20control-yellow)  ![](https://img.shields.io/badge/-lane--changing%20control-red) ![](https://img.shields.io/badge/-traffic%20signal%20control-orange) ![](https://img.shields.io/badge/-on--ramps%20merging-brightgreen) ![](https://img.shields.io/badge/-unsignalized%20intersections-blue)
 
-
-
- 
 1. Wang, Wenshuo, et al. **"Social interactions for autonomous driving: A review and perspectives."** Foundations and Trends® in Robotics 10.3-4 (2022): 198-376. 
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Social+interactions+for+autonomous+driving%3A+A+review+and+perspectives&btnG=) [[Paper]](https://www.nowpublishers.com/article/Details/ROB-078) 
 
@@ -120,7 +117,16 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 3. Liu, Wei, et al. **"A systematic survey of control techniques and applications in connected and automated vehicles."** IEEE Internet of Things Journal (2023).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=A+Systematic+Survey+of+Control+Techniques+and+Applications+in+Connected+and+Automated+Vehicles&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10225497) 
 
+4. Schmidt, Lukas M., et al. **"An introduction to multi-agent reinforcement learning and review of its application to autonomous mobility."** 2022 IEEE 25th International Conference on Intelligent Transportation Systems (ITSC). IEEE, 2022.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=An+introduction+to+multi-agent+reinforcement+learning+and+review+of+its+application+to+autonomous+mobility&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9922205) 
 
+5. 
+[[Google Scholar]]() [[Paper]]() 
+
+6.  
+[[Google Scholar]]() [[Paper]]() 
+
+[[Google Scholar]]() [[Paper]]() 
 
 
 ## 2. 🎓 Backgrounds
@@ -129,83 +135,141 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 1. Kaelbling, Leslie Pack, Michael L. Littman, and Andrew W. Moore. **"Reinforcement learning: A survey."** Journal of artificial intelligence research 4 (1996): 237-285.
 [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Reinforcement+learning%3A+A+survey&btnG=) [[Paper]](https://www.jair.org/index.php/jair/article/view/10166/24110) 
 
+2.
+[[Google Scholar]]() [[Paper]]() 
+
+3.
+[[Google Scholar]]() [[Paper]]() 
+
+4.
+[[Google Scholar]]() [[Paper]]() 
+
+5.
+[[Google Scholar]]() [[Paper]]() 
+
+6.
+[[Google Scholar]]() [[Paper]]() 
 
 #### 2.1.1 Deep Q-Learning
 
-
+1.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
+2.
+[[Google Scholar]]() [[Paper]]()  [[Code]]()
 
+3.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
-
-
+4.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
-
+5.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
-
-
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
-
-
+6.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
 
 #### 2.1.2 Policy Gradient
 
-1. Schulman, John, et al. "Proximal policy optimization algorithms." arXiv preprint arXiv:1707.06347 (2017).
+1. Schulman, John, et al. **"Proximal policy optimization algorithms."** arXiv preprint arXiv:1707.06347 (2017).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Proximal+policy+optimization+algorithms&btnG=) [[Paper]](https://arxiv.org/pdf/1707.06347.pdf)  [[Code]]() 
 
-
+2.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
-
+3.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
-
+4.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
-
+5.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
-
+6.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
 #### 2.1.3 Actor-critic Network
-
+1.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
-
+2.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
+3.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
-
+4.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
-
+5.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
 ### 2.2 Multi-Agent Reinforcement Learning (MARL)
-
 1. Nguyen, Thanh Thi, Ngoc Duy Nguyen, and Saeid Nahavandi. **"Deep reinforcement learning for multiagent systems: A review of challenges, solutions, and applications."** IEEE transactions on cybernetics 50.9 (2020): 3826-3839.
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Deep+reinforcement+learning+for+multiagent+systems%3A+A+review+of+challenges%2C+solutions%2C+and+application&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9043893) 
 
 2. Gronauer, Sven, and Klaus Diepold. **"Multi-agent deep reinforcement learning: a survey."** Artificial Intelligence Review (2022): 1-49.
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Multi-agent+deep+reinforcement+learning%3A+a+survey&btnG=) [[Paper]](https://link.springer.com/article/10.1007/s10462-021-09996-w) 
 
-### 2.3 Training and Execution Strategies in MARL
+3. Zhang, Kaiqing, Zhuoran Yang, and Tamer Başar. **"Multi-agent reinforcement learning: A selective overview of theories and algorithms."** Handbook of reinforcement learning and control (2021): 321-384.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Multi-agent+reinforcement+learning%3A+A+selective+overview+of+theories+and+algorithms&btnG=) [[Paper]](https://link.springer.com/chapter/10.1007/978-3-030-60990-0_12) 
 
+4. Tan, Ming. **"Multi-agent reinforcement learning: Independent vs. cooperative agents."** Proceedings of the tenth international conference on machine learning. 1993.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Multi-agent+reinforcement+learning%3A+Independent+vs.+cooperative+agents.&btnG=) [[Paper]](https://books.google.co.uk/books?hl=zh-CN&lr=&id=TrqjBQAAQBAJ&oi=fnd&pg=PA330&dq=Multi-agent+reinforcement+learning:+Independent+vs.+cooperative+agents.&ots=v3_fYV6XSn&sig=ePsM7WCM6EwxuPiclMg1xyx8H8c&redir_esc=y#v=onepage&q=Multi-agent%20reinforcement%20learning%3A%20Independent%20vs.%20cooperative%20agents.&f=false) 
+
+### 2.3 Training and Execution Strategies in MARL
+1.
+[[Google Scholar]]() [[Paper]]() 
+
+2.
+[[Google Scholar]]() [[Paper]]() 
+
+3.
+[[Google Scholar]]() [[Paper]]() 
+
+4.
+[[Google Scholar]]() [[Paper]]() 
+
+5.
 [[Google Scholar]]() [[Paper]]() 
 
 #### 2.3.1 Centralized training with decentralized execution (CTDE)
 
+1.
+[[Google Scholar]]() [[Paper]]() 
+
+2.
+[[Google Scholar]]() [[Paper]]() 
+
+3.
+[[Google Scholar]]() [[Paper]]() 
+
+4.
+[[Google Scholar]]() [[Paper]]() 
+
+5.
 [[Google Scholar]]() [[Paper]]() 
 
 #### 2.3.2 Decentralized training with decentralized execution (DTDE)
+1.
+[[Google Scholar]]() [[Paper]]() 
 
+2.
+[[Google Scholar]]() [[Paper]]() 
+
+3.
+[[Google Scholar]]() [[Paper]]() 
+
+4.
+[[Google Scholar]]() [[Paper]]() 
+
+5.
+[[Google Scholar]]() [[Paper]]() 
+
+6.
 [[Google Scholar]]() [[Paper]]() 
 
 ### 2.4 MARL Algorithm Variants
@@ -218,21 +282,36 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 2. Rashid, Tabish, et al. **"Monotonic value function factorisation for deep multi-agent reinforcement learning."** The Journal of Machine Learning Research 21.1 (2020): 7234-7284.
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Monotonic+value+function+factorisation+for+deep+multi-agent+reinforcement+learning&btnG=) [[Paper]](https://dl.acm.org/doi/pdf/10.5555/3455716.3455894) 
 
+3.
+[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+
+4.
+[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+
+5.
+[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+
+6.
+[[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
 #### 2.4.2 Learning to Communicate
 
 1. Sukhbaatar, Sainbayar, and Rob Fergus. **"Learning multiagent communication with backpropagation."** Advances in neural information processing systems 29 (2016).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Learning+multiagent+communication+with+backpropagation&btnG=) [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2016/file/55b1927fdafef39c48e5b73b5d61ea60-Paper.pdf)
 
+2. Foerster, Jakob, et al. **"Learning to communicate with deep multi-agent reinforcement learning."** Advances in neural information processing systems 29 (2016).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Learning+to+communicate+with+deep+multi-agent+reinforcement+learning&btnG=) [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2016/file/c7635bfd99248a2cdef8249ef7bfbef4-Paper.pdf) 
+
+3.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
+4.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
-
+5.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
-
+6.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
 
@@ -240,14 +319,16 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 1. Pateria, Shubham, et al. **"Hierarchical reinforcement learning: A comprehensive survey."** ACM Computing Surveys (CSUR) 54.5 (2021): 1-35.
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Hierarchical+reinforcement+learning%3A+A+comprehensive+survey&btnG=) [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3453160) 
 
+2.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
-
+3.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
-
+4.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
+5.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
 
 #### 2.4.4 Causal inference
@@ -255,14 +336,21 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 1. Grimbly, St John, Jonathan Shock, and Arnu Pretorius. **"Causal multi-agent reinforcement learning: Review and open problems."** arXiv preprint arXiv:2111.06721 (2021).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Causal+multi-agent+reinforcement+learning%3A+Review+and+open+problems&btnG=) [[Paper]](https://arxiv.org/pdf/2111.06721.pdf)  
 
-2. Jaques, Natasha, et al. "Intrinsic social motivation via causal influence in multi-agent RL." (2018).
+2. Jaques, Natasha, et al. **"Intrinsic social motivation via causal influence in multi-agent RL."** (2018).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Intrinsic+social+motivation+via+causal+influence+in+multi-agent+RL&btnG=) [[Paper]](https://openreview.net/forum?id=B1lG42C9Km)  [[Code]](https://www.catalyzex.com/paper/arxiv:1810.08647/code) 
 
-3. Wang, Han, Yang Yu, and Yuan Jiang. "Fully Decentralized Multiagent Communication via Causal Inference." IEEE Transactions on Neural Networks and Learning Systems (2022).
+3. Wang, Han, Yang Yu, and Yuan Jiang. **"Fully Decentralized Multiagent Communication via Causal Inference."** IEEE Transactions on Neural Networks and Learning Systems (2022).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Fully+Decentralized+Multiagent+Communication+via+Causal+Inference&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9761961) 
 
-
+4. 
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
+
+5.
+[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+
+6.
+[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+
 
 
 ## 3. 🤖 Towards applications in connected and autonomous vehicles
@@ -283,8 +371,20 @@ In this section, we will comprehensively explore the recent strides made in the 
 2. He, Lv. **"Multi-vehicle Platoon Overtaking Using NoisyNet Multi-Agent Deep Q-Learning Network."** arXiv preprint arXiv:2303.02583 (2023).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Multi-vehicle+Platoon+Overtaking+Using+NoisyNet+Multi-Agent+Deep+Q-Learning+Network&btnG=) [[Paper]](https://arxiv.org/pdf/2303.02583.pdf) 
 
-3. Xu, Yuanyuan, et al. "Deep Reinforcement Learning for Multi-Objective Resource Allocation in Multi-Platoon Cooperative Vehicular Networks." IEEE Transactions on Wireless Communications (2023).
+3. Xu, Yuanyuan, et al. **"Deep Reinforcement Learning for Multi-Objective Resource Allocation in Multi-Platoon Cooperative Vehicular Networks."** IEEE Transactions on Wireless Communications (2023).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Deep+Reinforcement+Learning+for+Multi-Objective+Resource+Allocation+in+Multi-Platoon+Cooperative+Vehicular+Networks&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10040608) 
+
+4. Beaver, Logan E. **"Constraint-driven optimal control of multiagent systems: A highway platooning case study."** IEEE Control Systems Letters 6 (2021): 1754-1759.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Constraint-driven+optimal+control+of+multiagent+systems%3A+A+highway+platooning+case+study&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9642048) 
+
+5. Li, Yongfu, et al. **"Consensus-based cooperative control for multi-platoon under the connected vehicles environment."** IEEE Transactions on Intelligent Transportation Systems 20.6 (2018): 2220-2229.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Consensus-based+cooperative+control+for+multi-platoon+under+the+connected+vehicles+environment&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8458142) 
+
+6. Guo, Xiang-Gui, et al. **Multi-agent systems: platoon control and non-fragile quantized consensus.** CRC Press, 2019.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Multi-agent+systems%3A+platoon+control+and+non-fragile+quantized+consensus&btnG=) [[Paper]](https://books.google.co.uk/books?hl=zh-CN&lr=&id=iU-fDwAAQBAJ&oi=fnd&pg=PP1&dq=Multi-agent+systems:+platoon+control+and+non-fragile+quantized+consensus&ots=bzvsfmRvjQ&sig=L3Hbh5yh3cHKfuATXyrT7mzW_nM&redir_esc=y#v=onepage&q=Multi-agent%20systems%3A%20platoon%20control%20and%20non-fragile%20quantized%20consensus&f=false) 
+
+7. Li, Yongfu, et al. **"Platoon control of connected multi-vehicle systems under V2X communications: Design and experiments."** IEEE Transactions on Intelligent Transportation Systems 21.5 (2019): 1891-1902.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Platoon+control+of+connected+multi-vehicle+systems+under+V2X+communications%3A+Design+and+experiments&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8686052) 
 
 
 ### 3.2 Two-dimensional Cooperation
@@ -346,14 +446,17 @@ In this section, we will comprehensively explore the recent strides made in the 
 3. Hu, Yeping, et al. **"Interaction-aware decision making with adaptive strategies under merging scenarios."** 2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE, 2019.
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Interaction-aware+decision+making+with+adaptive+strategies+under+merging+scenarios&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8968478) 
 
-4. 
-[[Google Scholar]]() [[Paper]]() 
+4. Schester, Larry, and Luis E. Ortiz. **"Longitudinal position control for highway on-ramp merging: A multi-agent approach to automated driving."** 2019 IEEE Intelligent Transportation Systems Conference (ITSC). IEEE, 2019.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Longitudinal+position+control+for+highway+on-ramp+merging%3A+A+multi-agent+approach+to+automated+driving&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8916951) 
 
-5.
-[[Google Scholar]]() [[Paper]]() 
+5. Li, Lin, et al. **"Nash double Q-based multi-agent deep reinforcement learning for interactive merging strategy in mixed traffic."** Expert Systems with Applications 237 (2024): 121458.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Nash+double+Q-based+multi-agent+deep+reinforcement+learning+for+interactive+merging+strategy+in+mixed+traffic&btnG=) [[Paper]](https://pdf.sciencedirectassets.com/271506/1-s2.0-S0957417423X00244/1-s2.0-S0957417423019607/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEAQaCXVzLWVhc3QtMSJGMEQCIB6ulxC2qpE24MKXilOZE2B252ACc9dwpKEIaMCoBIrzAiBDZXvQvK8cIqUltCxqBZZFBv9X2yc1PbdsZoP71xmQbyqzBQhMEAUaDDA1OTAwMzU0Njg2NSIMTM4c16SiJUdoBsEjKpAF%2B7fOHlLaLudlO3ryBfDisCebD3w3G7dLHQScln%2FBRZFpDoU5gd%2F%2BIEaAgx0D5uBW0GQJ3hKMKEM49pc5nUn2EV9SYk2BOHxj8164JYy2iDfaku3eOzPBeu4ag02pbK9kPUIKMn5JdkV7uDuOXcUssQZml8cHFGwmyGgoep%2Fo8Anw0yP9X%2BpF3EI5IKUE4MslRhSw8zJuTdqhHHeiG%2B6ee%2BBKb0YRxlhIA%2FXBLR%2BmBbwKimCr%2BLb1ivcRAiavAWZg8N36SuGEKd%2FLhXOIVpyUPLYgJHT%2FEJmVDk6ykfgaS%2BFVQhjIZj%2BYFeHlatPz7DghdFd4XkZxLL6MqrlK6HHgspZbqgsj7oYyl1re8RV%2B18mfuQNGS0MELQ6hu%2BpvxzH%2Fq0nYbwnjdXV2cEe6LhS0QopQmkXa1YfYeAMu6Ko1ETsP1VffR5hl2UxgUXqNkYqXxGNL3ljQdMq8zal9HWxYa8Oa6fqKgt4mX%2BbpoTErcRRrvyv1%2FCNvZGXqArtcaorixQ1x1sEXNvmGm1drtjqk6VdNmX0ImJljV0Svz9PypRQ8nvgUGtUQyr2RRYWC%2Fda2BzjptOwG1XIRNxIigBLNg9B7gPJlzLPv%2FW650Py12aol7CoZHyJx4%2BiU4WgydQLZt1KYYh9Ms5iHNICmCImjOGQ1PNXnt1wxP%2FTKwNMsrS7UL8GrHVz0HS5GdHgf5Q4fiDrQLBPDZp1xu3ckxaTYTfUIy7CCUS3Cul9kHypiAbkKzkmztq05dxGyp85qFiRIpxsPZepm7x%2F7QQg8GvaCbAPmue936XeTTOBAIdGOMBlHIEy2klDLcFRK5PO8e5PxbS7BAMFyNWlpDcMRyypmKr49BBMrwZy6Z0MU7c%2FdLa4wpurJqgY6sgH%2FqyloAE%2FKlNXhd14%2BWohtRgwaXcBuE%2BR23BtQ8bHyRdJRHQaJTb2rvahZH6BB7PfPBiaIuvisuY6ljS9p%2Bzyof4HGujMBQrbZTbgrW1%2BSjqpJiub%2Buwr5BhgR2TkirpnL%2BVJg%2Fzsbkkv2URNvZnwB28%2BhtpVaEiPJh23tyxc68YqHRo4MDF9rQAHiKpYk4RXu9Zecg%2FW3DS37yUfcXo18ftmlcZHVlBwmgmhAeCB6Adz1&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231113T203510Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY672L3DMA%2F20231113%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=009918c85b65257040ce28c9e941a41297795c81ad8e4507b88f2541f21cab70&hash=b8e7aa83ace7808cd1ce1796503ee31a5b517453e4cfedc50b05fc8c2bb20b1d&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0957417423019607&tid=spdf-28d022f6-358e-4a3d-a41d-090695f2af47&sid=f4f7fa4920e573475449386-60b9f94d1dcdgxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1d075c515a5901040c&rr=8259ccb4ca61240c&cc=gb) 
 
-6.
-[[Google Scholar]]() [[Paper]]() 
+6. Zhang, Xinfeng, et al. **"High-Speed Ramp Merging Behavior Decision for Autonomous Vehicles Based on Multi-Agent Reinforcement Learning."** IEEE Internet of Things Journal (2023).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=High-Speed+Ramp+Merging+Behavior+Decision+for+Autonomous+Vehicles+Based+on+Multi-Agent+Reinforcement+Learning&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10215357) 
+
+7. Zine, el abidine Kherroubi, Samir Aknine, and Rebiha Bacha. **"Novel decision-making strategy for connected and autonomous vehicles in highway on-ramp merging."** IEEE Transactions on Intelligent Transportation Systems 23.8 (2021): 12490-12502.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Novel+decision-making+strategy+for+connected+and+autonomous+vehicles+in+highway+on-ramp+merging&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9557770) 
 
 #### 3.3.3 Unsignalized intersections
 
