@@ -163,7 +163,7 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 #### 2.4.2 Learning to Communicate
 
 1. Sukhbaatar, Sainbayar, and Rob Fergus. **"Learning multiagent communication with backpropagation."** Advances in neural information processing systems 29 (2016).
-[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Learning+multiagent+communication+with+backpropagation&btnG=)[[Paper]](https://proceedings.neurips.cc/paper_files/paper/2016/file/55b1927fdafef39c48e5b73b5d61ea60-Paper.pdf)
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Learning+multiagent+communication+with+backpropagation&btnG=) [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2016/file/55b1927fdafef39c48e5b73b5d61ea60-Paper.pdf)
 
 2. 
 #### 2.4.3 Hierarchical structure
@@ -177,11 +177,11 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 
 In this section, we will comprehensively explore the recent strides made in the utilization of MARL within CAV applications. Our examination will be structured according to various dimensions of cooperation, each correlated with a specific number of control components. 
 
-**One-dimensional cooperation** corresponds to scenarios involving control along a single control direction, such as either longitudinal control or lateral control.
+**One-dimensional cooperation** corresponds to scenarios involving control along a single control direction, such as either longitudinal control or lateral control. ![](https://img.shields.io/badge/-platooning%20control-yellow) 
 
-**Two-dimensional cooperation** extends the scope to include both longitudinal and lateral control components, reflecting the increased complexity in the coordination and decision-making of CAVs.
+**Two-dimensional cooperation** extends the scope to include both longitudinal and lateral control components, reflecting the increased complexity in the coordination and decision-making of CAVs. ![](https://img.shields.io/badge/-lane--changing%20control-red)
 
-**Three-dimensional cooperation** further augments the challenges and opportunities by incorporating additional constraints, such as time limits, which encompass aspects like traffic light control and on-ramp merging.
+**Three-dimensional cooperation** further augments the challenges and opportunities by incorporating additional constraints, such as time limits, which encompass aspects like traffic light control and on-ramp merging. ![](https://img.shields.io/badge/-traffic%20signal%20control-orange) ![](https://img.shields.io/badge/-on--ramps%20merging-brightgreen) ![](https://img.shields.io/badge/-unsignalized%20intersections-blue)
 
 
 
