@@ -193,11 +193,11 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 3. Fujimoto, Scott, Herke Hoof, and David Meger. **"Addressing function approximation error in actor-critic methods."** International conference on machine learning. PMLR, 2018.
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Addressing+Function+Approximation+Error+in+Actor-Critic+Methods&btnG=) [[Paper]](https://arxiv.org/pdf/1802.09477.pdf)  [[Code]]() 
 
-4.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+4. Wang, Ziyu, et al. **"Sample efficient actor-critic with experience replay."** arXiv preprint arXiv:1611.01224 (2016).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=SAMPLE+EFFICIENT+ACTOR-CRITIC+WITH+EXPERIENCE+REPLAY&btnG=) [[Paper]](https://arxiv.org/pdf/1611.01224.pdf)  [[Code]]() 
 
-5.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+5. Silver, David, et al. **"Deterministic policy gradient algorithms."** International conference on machine learning. Pmlr, 2014.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Deterministic+Policy+Gradient+Algorithms&btnG=) [[Paper]](https://proceedings.mlr.press/v32/silver14.pdf)  [[Code]]() 
 
 ### 2.2 Multi-Agent Reinforcement Learning (MARL)
 1. Nguyen, Thanh Thi, Ngoc Duy Nguyen, and Saeid Nahavandi. **"Deep reinforcement learning for multiagent systems: A review of challenges, solutions, and applications."** IEEE transactions on cybernetics 50.9 (2020): 3826-3839.
@@ -221,39 +221,23 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 
 ### 2.3 Training and Execution Strategies in MARL
 
-#### 2.3.1 Centralized training with decentralized execution (CTDE)
-1.
-[[Google Scholar]]() [[Paper]]() 
+1. Zhao, Jian, et al. **"Ctds: Centralized teacher with decentralized student for multi-agent reinforcement learning."** IEEE Transactions on Games (2022).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Centralized+teacher+with+decentralized+student+for+multi-agent+reinforcement+learning&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9999468) 
 
-2.
-[[Google Scholar]]() [[Paper]]() 
+2. Yao, Xinghu, et al. **"Smix (λ): Enhancing centralized value functions for cooperative multiagent reinforcement learning."** IEEE Transactions on Neural Networks and Learning Systems (2021).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Smix+%28%CE%BB%29%3A+Enhancing+centralized+value+functions+for+cooperative+multiagent+reinforcement+learning&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9466372) 
 
-3.
-[[Google Scholar]]() [[Paper]]() 
+3. Zhang, Kaiqing, et al. **"Fully decentralized multi-agent reinforcement learning with networked agents."** International Conference on Machine Learning. PMLR, 2018.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Fully+decentralized+multi-agent+reinforcement+learning+with+networked+agents&btnG=) [[Paper]](https://proceedings.mlr.press/v80/zhang18n/zhang18n.pdf) 
 
-4.
-[[Google Scholar]]() [[Paper]]() 
+4. Sharma, Piyush K., et al. **"Survey of recent multi-agent reinforcement learning algorithms utilizing centralized training."** Artificial intelligence and machine learning for multi-domain operations applications III. Vol. 11746. SPIE, 2021.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Survey+of+recent+multi-agent+reinforcement+learning+algorithms+utilizing+centralized+training&btnG=) [[Paper]](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/11746/2585808/Survey-of-recent-multi-agent-reinforcement-learning-algorithms-utilizing-centralized/10.1117/12.2585808.short) 
 
-5.
-[[Google Scholar]]() [[Paper]]() 
+5. Zhang, Kaiqing, Zhuoran Yang, and Tamer Başar. **"Decentralized multi-agent reinforcement learning with networked agents: Recent advances."** Frontiers of Information Technology & Electronic Engineering 22.6 (2021): 802-814.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Decentralized+multi-agent+reinforcement+learning+with+networked+agents%3A+Recent+advance&btnG=) [[Paper]](https://link.springer.com/article/10.1631/FITEE.1900661) 
 
-1.
-[[Google Scholar]]() [[Paper]]() 
-
-2.
-[[Google Scholar]]() [[Paper]]() 
-
-3.
-[[Google Scholar]]() [[Paper]]() 
-
-4.
-[[Google Scholar]]() [[Paper]]() 
-
-5.
-[[Google Scholar]]() [[Paper]]() 
-
-6.
-[[Google Scholar]]() [[Paper]]() 
+6. Kraemer, Landon, and Bikramjit Banerjee. **"Multi-agent reinforcement learning as a rehearsal for decentralized planning."** Neurocomputing 190 (2016): 82-94.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Multi-agent+reinforcement+learning+as+a+rehearsal+for+decentralized+planning.&btnG=) [[Paper]](https://pdf.sciencedirectassets.com/271597/1-s2.0-S0925231216X00136/1-s2.0-S0925231216000783/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBQaCXVzLWVhc3QtMSJGMEQCIBlGRCzGyFS5DTx18dJxb9n%2Fl0MdffwqwXnVzRkDsmLJAiAgn25bGKgZonQH0Q9Xlghetp6FVNwtqLTXzbMy6p39LiqyBQhdEAUaDDA1OTAwMzU0Njg2NSIMqL2%2B11LV9aQ1Fw8bKo8FzgvrrekOwqNmEN3MFyt7xcmuMCxOvx5S7xLD4RH8N%2FdxotmDw%2BPC88sVhpr8dOG8fueNU0nYMs7oU45YBFzErnEoGlCbQa1HlqqdVF9vyFz3dZ7Zwhl9zSUI8nMRdenBwq%2Ba8KTrIDNPCYcRhYam%2BvkOoqKoT8g24NvbqmIWoYesUssZdHIOVNGIuXw70qHb0r7I3Y%2FN3Vezb3VpJNDvZIlhD%2Bb4zdzuTXoD4isYUTluS2Do9spiM0sfPIummuFaRXJmFtE4qOFTlycHh4cAGT5G0Q18epIG%2FTf903HFB6xi69nM17Tlq6JHlmrEPvjwJeqnxp%2BGjtycVVwfECcSUrDNBq5q%2BPHQVhua%2B%2FkElsDfSY0yIi33kc%2F8%2FYPMd8Y2cJmJxxJoTBjD4hwb%2F%2BE6iYjO2EGgD2Mvhe%2FLtpkj8VzJLMpRE3QiIapcYgawGUf2Yl3z%2FA6xT7f6C8Oq2Q%2FEceROAdYUj2dIulQ4KtC%2BLZUFt%2Fc08nCKykAa%2F4aA9QkwPu1ORjG0fROv%2F1nyW6f4GlmZcPZSen82O22Z6%2BPvHIJixBXN2kj8tyIB1RdvwnAHrP0zYTcXy%2F7Gr00S91sFSV7wbzAlGCDT1Xznn1c2I7PMbIYYb%2FonIv2QsX0l3HHEfFvQ2uJphsyK%2FIMA9XUUeXafYbSqyLQuTk7I8tVHTn17GVNRVFyWW%2FPRHExSmR2VBpVOwhpPij9PVAZp0kiDNd0DzZjeKv%2FxtNX8frBGNITg5stDSMZCkRunZZl8R%2FEjE0%2FmrHZw0Dsg083NPrIuejnODjQlknArQqKwDI3LXiyDTeJ7OQBf7PlF2MttQ9NpPJvorCDSlrlIC5ryTqVM2k8CqIQ5WzaEwQx4JbefvDCjus2qBjqyAV7RT7UE6kN%2BQfFBRQ6sNblnbeKCNdxumqSJlaDARpDwZfcSIV07ULip3UQBI7%2B%2Bt0YPjesn458BuShQ1efqkDFcu3XMZR1nrxmRkkEkYQMYuZpW1INvEQRSvhedcmKV1tx5yqzJQubMkGn3tcJIhItI%2BfUqXCVr02uRg83WDruxT%2BXVO%2Fpm36r%2B3HOdmjU3NEZejSqHOP7sUuh%2F4byVp0qropVfvuH98tZqcWj6qlMJvpw%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20231114T121641Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY4S33LY5K%2F20231114%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=1f9ad4a037dc745a83a157ed00614fb2aedbe0f3a70622d5df52d5084a0f949a&hash=7622db9f62f794e7f4d3e4f1279abc6845532251b6d61240b29e0175e3ac560d&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0925231216000783&tid=spdf-db504b64-da4d-4519-9411-7b04836a90dc&sid=f4f7fa4920e573475449386-60b9f94d1dcdgxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=1d075c515a0650010b&rr=825f2fe47de16325&cc=gb) 
 
 ### 2.4 MARL Algorithm Variants
 
