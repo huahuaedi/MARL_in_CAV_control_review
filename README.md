@@ -285,17 +285,17 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 1. Pateria, Shubham, et al. **"Hierarchical reinforcement learning: A comprehensive survey."** ACM Computing Surveys (CSUR) 54.5 (2021): 1-35.
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Hierarchical+reinforcement+learning%3A+A+comprehensive+survey&btnG=) [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3453160) 
 
-2.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+2. Ahilan, Sanjeevan, and Peter Dayan. **"Feudal multi-agent hierarchies for cooperative reinforcement learning."** arXiv preprint arXiv:1901.08492 (2019).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Feudal+multi-agent+hierarchies+for+cooperative+reinforcement+learning&btnG=) [[Paper]](https://arxiv.org/pdf/1901.08492.pdf) 
 
-3.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+3. Tang, Hongyao, et al. **"Hierarchical deep multiagent reinforcement learning with temporal abstraction."** arXiv preprint arXiv:1809.09332 (2018).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Hierarchical+deep+multiagent+reinforcement+learning+with+temporal+abstraction&btnG=) [[Paper]](https://arxiv.org/pdf/1809.09332.pdf)  
 
-4.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+4. Xu, Zhiwei, et al. **"HAVEN: hierarchical cooperative multi-agent reinforcement learning with dual coordination mechanism."** Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 37. No. 10. 2023.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=HAVEN%3A+hierarchical+cooperative+multi-agent+reinforcement+learning+with+dual+coordination+mechanism&btnG=) [[Paper]](https://ojs.aaai.org/index.php/AAAI/article/view/26386)  
 
-5.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+5. Yang, Jiachen, Igor Borovikov, and Hongyuan Zha. **"Hierarchical cooperative multi-agent reinforcement learning with skill discovery."** arXiv preprint arXiv:1912.03558 (2019).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Hierarchical+cooperative+multi-agent+reinforcement+learning+with+skill+discovery&btnG=) [[Paper]](https://arxiv.org/pdf/1912.03558.pdf)  
 
 #### 2.4.4 Causal inference
 
@@ -308,17 +308,16 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 3. Wang, Han, Yang Yu, and Yuan Jiang. **"Fully Decentralized Multiagent Communication via Causal Inference."** IEEE Transactions on Neural Networks and Learning Systems (2022).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Fully+Decentralized+Multiagent+Communication+via+Causal+Inference&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9761961) 
 
-4. 
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+4. Liu, Boyin, et al. **"Lazy Agents: A New Perspective on Solving Sparse Reward Problem in Multi-agent Reinforcement Learning."** (2023).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Lazy+Agents%3A+A+New+Perspective+on+Solving+Sparse+Reward+Problem+in+Multi-agent+Reinforcement+Learning&btnG=) [[Paper]](https://openreview.net/pdf?id=DRu5BlRqrn)  
 
-5.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+5. Pina, Rafael, Varuna De Silva, and Corentin Artaud. **"Discovering Causality for Efficient Cooperation in Multi-Agent Environments."** arXiv preprint arXiv:2306.11846 (2023).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Discovering+Causality+for+Efficient+Cooperation+in+Multi-Agent+Environments&btnG=) [[Paper]](https://arxiv.org/pdf/2306.11846.pdf)  
 
-6.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+6. Pearl, Judea.**"Theoretical impediments to machine learning with seven sparks from the causal revolution."** arXiv preprint arXiv:1801.04016 (2018).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Theoretical+impediments+to+machine+learning+with+seven+sparks+from+the+causal+revolution&btnG=) [[Paper]](https://arxiv.org/pdf/1801.04016.pdf)  
 
-
-
+   
 ## 3. 🤖 Towards applications in connected and autonomous vehicles
 
 In this section, we will comprehensively explore the recent strides made in the utilization of MARL within CAV applications. Our examination will be structured according to various dimensions of cooperation, each correlated with a specific number of control components. 
