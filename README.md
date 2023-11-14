@@ -144,23 +144,23 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 
 #### 2.1.1 Deep Q-Learning
 
-1. Mnih, Volodymyr, et al. "Playing atari with deep reinforcement learning." arXiv preprint arXiv:1312.5602 (2013).
+1. Mnih, Volodymyr, et al. **"Playing atari with deep reinforcement learning."** arXiv preprint arXiv:1312.5602 (2013).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Playing+Atari+with+Deep+Reinforcement+Learning&btnG=) [[Paper]](https://arxiv.org/pdf/1312.5602v1.pdf)  [[Code]](https://github.com/ray-project/ray/tree/master/rllib/algorithms/dqn) 
 
-2.
-[[Google Scholar]]() [[Paper]]()  [[Code]]()
+2. Hausknecht, Matthew, and Peter Stone. **"Deep recurrent q-learning for partially observable mdps."** 2015 aaai fall symposium series. 2015.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Deep+Recurrent+Q-Learning+for+Partially+Observable+MDPs&btnG=) [[Paper]](https://arxiv.org/pdf/1507.06527.pdf)  [[Code]](https://github.com/mynkpl1998/Recurrent-Deep-Q-Learning)
 
-3.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+3. Wang, Ziyu, et al. **"Dueling network architectures for deep reinforcement learning."** International conference on machine learning. PMLR, 20
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Dueling+Network+Architectures+for+Deep+Reinforcement+Learning&btnG=) [[Paper]](https://arxiv.org/pdf/1511.06581.pdf)  [[Code]](https://paperswithcode.com/method/dueling-network) 
 
-4.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+4. Van Hasselt, Hado, Arthur Guez, and David Silver. **"Deep reinforcement learning with double q-learning."** Proceedings of the AAAI conference on artificial intelligence. Vol. 30. No. 1. 2016.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Deep+Reinforcement+Learning+with+Double+Q-learning&btnG=) [[Paper]](https://arxiv.org/pdf/1509.06461.pdf)  [[Code]](https://paperswithcode.com/method/double-q-learning) 
 
-5.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+5. Schaul, Tom, et al. **"Prioritized experience replay."** arXiv preprint arXiv:1511.05952 (2015).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Prioritized+Experience+Replay&btnG=) [[Paper]](https://arxiv.org/pdf/1511.05952.pdf)  [[Code]](https://paperswithcode.com/method/prioritized-experience-replay) 
 
-6.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+6. Hessel, Matteo, et al. **"Rainbow: Combining improvements in deep reinforcement learning."** Proceedings of the AAAI conference on artificial intelligence. Vol. 32. No. 1. 2018.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Rainbow%3A+Combining+Improvements+in+Deep+Reinforcement+Learning&btnG=) [[Paper]](https://arxiv.org/pdf/1710.02298.pdf)  [[Code]](https://paperswithcode.com/paper/rainbow-combining-improvements-in-deep#code) 
 
 
 #### 2.1.2 Policy Gradient
@@ -168,30 +168,30 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 1. Schulman, John, et al. **"Proximal policy optimization algorithms."** arXiv preprint arXiv:1707.06347 (2017).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Proximal+policy+optimization+algorithms&btnG=) [[Paper]](https://arxiv.org/pdf/1707.06347.pdf)  [[Code]]() 
 
-2.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+2. Mnih, Volodymyr, et al. **"Asynchronous methods for deep reinforcement learning."** International conference on machine learning. PMLR, 2016.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Asynchronous+Methods+for+Deep+Reinforcement+Learning&btnG=) [[Paper]](https://arxiv.org/pdf/1602.01783.pdf)  [[Code]]() 
 
-3.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+3. Schulman, John, et al. **"Trust region policy optimization."** International conference on machine learning. PMLR, 2015.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Trust+Region+Policy+Optimization&btnG=) [[Paper]](https://arxiv.org/pdf/1502.05477.pdf)  [[Code]]() 
 
-4.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+4. Schulman, John, et al. **"High-dimensional continuous control using generalized advantage estimation."** arXiv preprint arXiv:1506.02438 (2015).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=HIGH-DIMENSIONAL+CONTINUOUS+CONTROL+USING+GENERALIZED+ADVANTAGE+ESTIMATION&btnG=) [[Paper]](https://arxiv.org/pdf/1506.02438.pdf)  [[Code]]() 
 
-5.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+5. Heess, Nicolas, et al. **"Emergence of locomotion behaviours in rich environments."** arXiv preprint arXiv:1707.02286 (2017).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Emergence+of+Locomotion+Behaviours+in+Rich+Environments&btnG=) [[Paper]](https://arxiv.org/pdf/1707.02286.pdf)  [[Code]]() 
 
-6.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+6. Wu, Yuhuai, et al. **"Scalable trust-region method for deep reinforcement learning using kronecker-factored approximation."** Advances in neural information processing systems 30 (2017).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Scalable+trust-region+method+for+deep+reinforcement+learning+using+Kronecker-factored+approximation&btnG=) [[Paper]](https://arxiv.org/pdf/1708.05144.pdf)  [[Code]]() 
 
 #### 2.1.3 Actor-critic Network
-1.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+1. Haarnoja, Tuomas, et al. **"Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor."** International conference on machine learning. PMLR, 2018.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Soft+Actor-Critic%3A+Off-Policy+Maximum+Entropy+Deep+Reinforcement+Learning+with+a+Stochastic+Actor&btnG=) [[Paper]](https://arxiv.org/pdf/1801.01290.pdf)  [[Code]]() 
 
-2.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+2. Lillicrap, Timothy P., et al. **"Continuous control with deep reinforcement learning."** arXiv preprint arXiv:1509.02971 (2015).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Continuous+control+with+deep+reinforcement+learning&btnG=) [[Paper]](https://arxiv.org/abs/1509.02971)  [[Code]]() 
 
-3.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+3. Fujimoto, Scott, Herke Hoof, and David Meger. **"Addressing function approximation error in actor-critic methods."** International conference on machine learning. PMLR, 2018.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Addressing+Function+Approximation+Error+in+Actor-Critic+Methods&btnG=) [[Paper]](https://arxiv.org/pdf/1802.09477.pdf)  [[Code]]() 
 
 4.
 [[Google Scholar]]() [[Paper]]()  [[Code]]() 
