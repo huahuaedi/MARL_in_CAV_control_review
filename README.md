@@ -252,15 +252,14 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 3. Sunehag, Peter, et al. **"Value-decomposition networks for cooperative multi-agent learning."** arXiv preprint arXiv:1706.05296 (2017).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Value-Decomposition+Networks+For+Cooperative+Multi-Agent+Learning&btnG=) [[Paper]](https://arxiv.org/pdf/1706.05296.pdf)  [[Code]](https://github.com/oxwhirl/pymarl) 
 
-4. 
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+4. Rashid, Tabish, et al. **"Weighted qmix: Expanding monotonic value function factorisation for deep multi-agent reinforcement learning."** Advances in neural information processing systems 33 (2020): 10199-10210.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Weighted+qmix%3A+Expanding+monotonic+value+function+factorisation+for+deep+multi-agent+reinforcement+learning&btnG=) [[Paper]](https://proceedings.neurips.cc/paper_files/paper/2020/file/73a427badebe0e32caa2e1fc7530b7f3-Paper.pdf)  [[Code]](https://github.com/oxwhirl/smac) 
 
-5.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+5. Liu, Shanqi, et al. **"Learning Multi-Agent Cooperation via Considering Actions of Teammates."** IEEE Transactions on Neural Networks and Learning Systems (2023).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Learning+Multi-Agent+Cooperation+via+Considering+Actions+of+Teammates&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10103926) 
 
-6.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
-
+6. Zhang, Yuanxin, Huimin Ma, and Yu Wang. **"Avd-net: Attention value decomposition network for deep multi-agent reinforcement learning."** 2020 25th International Conference on Pattern Recognition (ICPR). IEEE, 2021.
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=AVD-Net%3A+Attention+Value+Decomposition+Network+For+Deep+Multi-Agent+Reinforcement+Learning&btnG=) [[Paper]](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9413114) 
 #### 2.4.2 Learning to Communicate
 
 1. Sukhbaatar, Sainbayar, and Rob Fergus. **"Learning multiagent communication with backpropagation."** Advances in neural information processing systems 29 (2016).
@@ -278,8 +277,8 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 5. Foerster, Jakob, et al. **"Learning to communicate with deep multi-agent reinforcement learning."** Advances in neural information processing systems 29 (2016).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Learning+to+Communicate+with+Deep+Multi-Agent+Reinforcement+Learning&btnG=) [[Paper]](https://arxiv.org/pdf/1605.06676.pdf)  [[Code]](https://github.com/iassael/learning-to-communicate) 
 
-6.
-[[Google Scholar]]() [[Paper]]()  [[Code]]() 
+6. Chu, Tianshu, Sandeep Chinchali, and Sachin Katti. **"Multi-agent reinforcement learning for networked system control."** arXiv preprint arXiv:2004.01339 (2020).
+[[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Multi-agent+Reinforcement+Learning+for+Networked+System+Control&btnG=) [[Paper]](https://arxiv.org/pdf/2004.01339.pdf)  [[Code]](https://github.com/cts198859/deeprl_network) 
 
 
 #### 2.4.3 Hierarchical structure
