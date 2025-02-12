@@ -100,7 +100,7 @@ Please consider citing our paper. 👇👇👇
 ## 1. 💁🏽‍♀️ Introduction
 ### 1.1 Multi-agent System for CAV Control
 
-![image](https://github.com/huahuaedi/MARL_in_CAV_control_review/blob/main/cav_framework.png)
+![image](https://github.com/huahuaedi/MARL_in_CAV_control_review/blob/main/cav_framework_r1.png)
 
 ### 1.2 Contributions of this review
 
@@ -147,7 +147,7 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 6. Varuna Jayasiri, Nipun Wijerathne. **labml.ai Annotated Paper Implementations.**
 [[Code]](https://nn.labml.ai/)
 
-#### 2.1.1 Deep Q-Learning
+#### 2.1.1 Value-based Methods
 
 1. Mnih, Volodymyr, et al. **"Playing atari with deep reinforcement learning."** arXiv preprint arXiv:1312.5602 (2013).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Playing+Atari+with+Deep+Reinforcement+Learning&btnG=) [[Paper]](https://arxiv.org/pdf/1312.5602v1.pdf)  [[Code]](https://github.com/ray-project/ray/tree/master/rllib/algorithms/dqn) 
@@ -168,7 +168,7 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Rainbow%3A+Combining+Improvements+in+Deep+Reinforcement+Learning&btnG=) [[Paper]](https://arxiv.org/pdf/1710.02298.pdf)  [[Code]](https://paperswithcode.com/paper/rainbow-combining-improvements-in-deep#code) 
 
 
-#### 2.1.2 Policy Gradient
+#### 2.1.2 Policy-based Methods
 
 1. Schulman, John, et al. **"Proximal policy optimization algorithms."** arXiv preprint arXiv:1707.06347 (2017).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=Proximal+policy+optimization+algorithms&btnG=) [[Paper]](https://arxiv.org/pdf/1707.06347.pdf)  [[Code]]() 
@@ -188,7 +188,7 @@ Why multi-agent reinforcement learning on the extent of control dimensions for c
 6. Wu, Yuhuai, et al. **"Scalable trust-region method for deep reinforcement learning using kronecker-factored approximation."** Advances in neural information processing systems 30 (2017).
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Scalable+trust-region+method+for+deep+reinforcement+learning+using+Kronecker-factored+approximation&btnG=) [[Paper]](https://arxiv.org/pdf/1708.05144.pdf)  [[Code]]() 
 
-#### 2.1.3 Actor-critic Network
+#### 2.1.3 Actor-critic Methods
 1. Haarnoja, Tuomas, et al. **"Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor."** International conference on machine learning. PMLR, 2018.
 [[Google Scholar]](https://scholar.google.com/scholar?hl=zh-CN&as_sdt=0%2C5&q=Soft+Actor-Critic%3A+Off-Policy+Maximum+Entropy+Deep+Reinforcement+Learning+with+a+Stochastic+Actor&btnG=) [[Paper]](https://arxiv.org/pdf/1801.01290.pdf)  [[Code]]() 
 
